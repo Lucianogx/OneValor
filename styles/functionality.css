@@ -83,7 +83,6 @@
     .functionality {
         display: flex;
         flex-wrap: wrap;
-        margin: 2em;
     }
 
     .functionality-gain {
@@ -146,7 +145,6 @@
     .functionality {
         display: flex;
         flex-wrap: wrap;
-        margin: 6em 2em;
       }
     
     .functionality-step {
@@ -189,7 +187,7 @@
 
     #functionality-gain_FirstImg {
         top: 0%;
-        min-width: 30vw;
+        min-width: 25vw;
         width: 32vw;
         left: 2%;
       }
@@ -211,7 +209,6 @@
     .functionality {
         display: flex;
         flex-wrap: wrap;
-        margin: 6em 2em;
       }
     
     .functionality-step {
@@ -222,6 +219,7 @@
         align-items: center;
         height: 39vh;
         margin: auto;
+        width: 90%;
       }
 
       #integration_position {
@@ -252,7 +250,8 @@
 
     #functionality-gain_FirstImg {
         top: 0%;
-        width: 30vw;
+        width: 25vw;
+        left: 10%;
       }
 
     #integration_position-two {

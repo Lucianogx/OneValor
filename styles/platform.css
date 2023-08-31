@@ -197,7 +197,8 @@
     }
 
     .platform-tablet {
-        height: 116%;
+        height: 150%;
+        min-height: 145%;
     }
 
     .platform-discovery_call {
