@@ -1,0 +1,32 @@
+@import url("./styles/head.css");
+@import url("./styles/platform.css");
+@import url("./styles/advantages.css");
+@import url("./styles/functionality.css");
+@import url("./styles/learn.css");
+@import url("./styles/legacy.css");
+@import url("./styles/plans.css");
+@import url("./styles/fag.css");
+@import url("./styles/footer.css");
+
+:root {
+    --main-source: "Red Hat Text";
+    --white:#ffffff;
+    --white-transparent:#ffffff45;
+    --purple: #472E92;
+    --blue-light: #19AEEF; 
+    --green: #9ADD30;
+    --black: #000000;
+    --gray-light: #D8D8D8;
+    --gray: #e2e2e2;
+    --gray-dark: #707070;
+    --purple-dark: #472E921A;
+    --green-dark: #9ADD3029;
+
+}
+
+body {
+    background-color: var(--white);
+    font-family: var(--main-source), sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}

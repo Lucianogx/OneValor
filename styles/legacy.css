@@ -1,0 +1,273 @@
+.legacy-container {
+    background-color: var(--gray);
+    padding-top: 5rem;
+}
+
+.legacy-txt_balloon {
+    padding: 1em;
+    border: solid 3px var(--green);
+    border-radius: 10px;
+    width: fit-content; 
+    margin: 0 1em 1em;
+    font-size: 1em;
+    font-weight: 500;
+    color: var(--purple);
+    text-align: center;
+}
+
+.legacy-txt_emphasis {
+    font-size: 1.95em;
+    font-weight: 900;
+    line-height: 3rem;
+    padding: 0 0.5em 0 0.5em;
+    color: var(--purple   );
+}
+
+.legacy-card_fettle {
+    padding: 1rem 0 1.5rem;
+}
+
+#legacy-txt_green {
+    color: var(--green);
+}
+
+.bLine_after::after{
+    content: "\a";
+    white-space: pre;
+}
+
+.bLine_before::before{
+    content: "\a";
+    white-space: pre;
+}
+
+#legacy-txt_blue {
+    color: var(--blue-light);
+}
+
+.legacy-box_img {
+    width: 81%;
+    object-fit: contain;
+    margin: 4em 0 3.31em 2.87em;
+}
+
+.legacy-box_first-img {
+    box-shadow: -2em 2em var(--purple);
+    -webkit-box-shadow: -2em 2em var(--purple);
+    -moz-box-shadow: -2em 2em var(--purple);
+    border-radius: 32px;
+}
+
+.legacy-box_second-img {
+    box-shadow: 2em 2em var(--green);
+    -webkit-box-shadow: 2em 2em var(--green);
+    -moz-box-shadow: 2em 2em var(--green);
+    border-radius: 32px;
+    margin: 4em 0 3.31em 1em;
+}
+
+.legacy-box_third {
+    margin-bottom: 6rem;
+}
+
+.legacy-box_third-img {
+    box-shadow: -2em 2em var(--blue-light);
+    -webkit-box-shadow: -2em 2em var(--blue-light);
+    -moz-box-shadow: -2em 2em var(--blue-light);
+    border-radius: 32px;
+}
+
+.legacy-box_txt {
+    padding: 1em;
+    color: var(--purple);
+    line-height: 2.34rem;
+    font-weight: 400;
+}
+
+.legacy-card_container {
+    padding-bottom: 2.5rem;
+}
+
+.legacy-card {
+    background-color: var(--white);
+    border: 1px solid var(--white);
+    margin: 1.5em 1em;
+    padding: 2.5em;
+    border-radius: 15px;
+    height: auto;
+    line-height: normal;
+    font-weight: normal;
+    color: var(--purple);
+    text-align: left;
+    opacity: 1;
+}
+
+#legacy-card_space {
+    margin-top: 1em;
+}
+
+.legacy-card_third {
+    margin-bottom: 0;
+}
+
+.legacy-card_txt {
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+    font-weight: 300;
+}
+
+@media screen and (min-width: 1024px) {
+    .legacy-container {
+        padding: 7em 8em;
+    }
+    
+    .legacy-txt {
+        padding: 2em 0 0 1em;
+        width: 59%;
+    }
+    .legacy-txt_balloon {
+        margin: 0;
+    }
+
+    .legacy-txt_emphasis {
+        padding: 1em 0 0 0;
+    }
+
+    .legacy-box_first,
+    .legacy-box_second,
+    .legacy-box_third {
+        display: flex;
+        align-items: center;
+    }
+
+    .legacy-box_first,
+    .legacy-box_third {
+        flex-direction: row-reverse;
+    }
+
+    .legacy-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .legacy-box_img {
+        width: 35vw;
+    }
+
+    .legacy-box_tittle-first,
+    .legacy-box_tittle-third {
+        font-size: 3em;
+        padding: 1em 2em 0.5em 1em;
+    }
+
+    .txt_first,
+    .txt_third {
+        padding: 0 2.5em 0 3em;
+        font-weight: lighter;
+    }
+
+    .legacy-box_tittle-second {
+        padding:0 0 0.5em 1.5em;
+        font-size: 3em;
+    }
+
+    .txt_second {
+        padding: 0 0 0 4.5em;
+        font-weight: lighter;
+    }
+
+    
+
+    .legacy-card_container {
+        display: flex;
+    }
+
+    .legacy-card {
+        width: 33%;
+        height: 44rem;
+        font-size: 1rem;
+    }
+
+    .legacy-card_fettle {
+       font-size: 1.5em; 
+    }
+
+    .balloon-txt {
+        margin-top: 3em;
+        margin-left: 1em;
+    }
+
+    .emphasis-txt {
+        margin-left: 0.5em;
+    }
+
+}
+
+@media screen and (min-width: 1530px) {
+    .legacy-card {
+        height: 30rem;
+    }
+    
+    .legacy-container { 
+        padding: 7em 7em;
+        font-size: 1.25em;
+    }
+    
+    .legacy-txt {
+        padding: 2em 0 0 0;
+        width: 70%;
+        margin-left: 0; 
+    }
+
+    .legacy-txt_emphasis {
+        line-height: 5rem;
+    }
+
+    .legacy-box_txt {
+        font-size: 1.25rem;
+        margin-top: 3rem;
+      }
+
+    .legacy-card_fettle {
+        font-size: 1.5em; 
+     }
+}
+
+@media screen and (min-width: 1900px) {
+
+    .legacy-card {
+        height: 43vh;
+    }
+    .legacy-container { 
+    padding: 7rem 12em;
+    font-size: 1.5em;
+    }
+
+    .legacy-txt {
+    padding: 2em 0 0 0;
+    width: 59%;
+    }
+
+    .legacy-txt_emphasis {
+        line-height: 5rem;
+        padding: 1rem 0 0 3.5rem;
+    }
+
+    #legacy-txt_emphasis {
+        padding: 1rem 0 0 0; 
+    }
+
+  
+    .legacy-card_fettle {
+        font-size: 1.5rem; 
+        padding: 0;
+     }
+    
+    .legacy-box_tittle-second {
+        padding: 1rem 0 0 5.5rem;
+    }
+
+    .txt_second {
+        padding: 0 6rem 0 4.5em;
+    }
+}

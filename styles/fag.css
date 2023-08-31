@@ -1,0 +1,140 @@
+.faq {
+    color: var(--purple);
+    background-color: var(--gray);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10rem;
+}
+
+.faq-top {
+    padding: 1em;
+    border: solid 3px var(--green);
+    width: fit-content;
+    margin: 1em 1em 1em;
+    font-size: 1em;
+    font-weight: 500;
+    color: var(--purple);
+    text-align: center;
+}
+
+.faq-top_bellow {
+    font-size: 2em;
+    font-weight: bold;
+    line-height: normal;
+    padding: 0 1em 0 0.5em;
+}
+
+.faq-top_txt {
+    padding: 1em;
+    margin-bottom: 4em;
+    font-weight: 300;
+}
+
+.fag-accordion_container {
+  padding: 0 2rem 2rem;
+}
+
+.content {
+  border-bottom: 2px solid var(--gray-light);
+  display: flex;
+  flex-direction: column;
+}
+
+.accordion_item {
+  
+  padding: 2rem 1rem;
+  border-radius: 5px;
+}
+
+.accordion_item:hover {
+  opacity: 0.9;
+}
+
+.accordion-header {
+  padding: 10px;
+  display: flex;
+  cursor: pointer;
+  font-weight: 900;
+  align-items: center;
+}
+
+.accordion_content {
+  margin-left: 2rem;
+  overflow: hidden;
+  height: 0;
+  transition: all .5s ease;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.active {
+  padding-bottom: 10px;
+}
+
+span, .icon {
+  font-weight: 900;
+}
+
+.icon {
+  margin-right: 1rem;
+  color: var(--green);
+  font-size: 2rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .faq {
+    display: flex;
+    padding: 20rem 8rem 6rem;
+  }
+
+  .fag-container {
+    padding-right: 8rem;
+  }
+
+  .faq-top_bellow {
+    padding: 0 0 0 0.5em;
+  }
+
+  .fag-accordion_container {
+    width: 50vw;
+  }
+}
+
+
+@media screen and (min-width: 1900px) {
+  .faq {
+    padding: 16rem 8rem 6rem;
+  }
+  
+  .faq-top,
+  .faq-top_txt,
+  .accordion_content {
+    font-size: 1.25rem;
+    line-height: 2rem;
+  }
+
+  .faq-top {
+    padding: 0.75em 2rem;
+  }
+
+  .faq-top_txt {
+    font-size: 1.5rem;
+  }
+  
+  .faq-top_bellow,
+  .accordion-header {
+    font-size: 1.56rem;
+  }
+
+  .faq-top_bellow {
+    font-size: 3.05rem;
+    padding: 0 0 0 1.2rem;
+  }
+
+  .fag-accordion_container {
+    padding: 6rem 2rem 2rem;
+  }
+
+  
+}

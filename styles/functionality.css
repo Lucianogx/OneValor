@@ -1,0 +1,267 @@
+.functionality {
+    position: relative;
+    z-index: 10;
+}
+
+.functionality-gain {
+    background-color: var(--purple);
+    border-radius: 10px;
+    color: var(--green);
+    text-align: center;
+    opacity: 1;
+}
+
+.functionality-step {
+    padding-bottom: 14rem;
+}
+
+.functionality-step_top {
+    padding: 0.75rem 1rem;
+    border: solid 2px var(--white);
+    border-radius: 3px;
+    width: 40%;
+    margin: 0 1em;
+    font-size: 0.8em;
+    font-weight: 600;
+    color: var(--purple);
+    text-align: center;
+}
+
+.functionality-step_middle {
+    font-size: 1.9em;
+    line-height: 1.5em;
+    font-weight: 900;
+    margin: 1rem 1rem 0;
+    color: var(--white);
+}
+
+.functionality-step_bottom {
+    font-weight: 300;
+    margin: 1.5rem 1rem 0;
+    color: var(--purple);
+}
+
+#functionality_emphasis {
+    font-weight: bold;
+}
+
+.functionality-gain_integration {
+    border: 4px solid var(--white-transparent);
+    border-radius: 16px;
+    margin: 1.5em 1em;
+    position: relative;
+    top: -12rem;
+    line-height: 1.5em;
+    font-weight: 400;
+    z-index: 1;
+}
+
+.functionality-gain_img {
+    padding: 1.5em 0 0.5em;
+    width: 15%;
+}
+
+.functionality-gain_txt {
+    font-size: 1.25rem;
+    padding: 0 1rem 1.5rem;
+}
+
+#functionality-gain_FirstImg {
+    position: relative;
+    top: -12rem;
+}
+
+#integration_position-two {
+    margin-bottom: -8rem;
+}
+
+#functionality_point {
+    color: var(--purple);
+}
+
+@media screen and (min-width: 1024px) {
+    .functionality {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 2em;
+    }
+
+    .functionality-gain {
+        display: flex;
+        width: -moz-available;
+        border-radius: 20px;
+        border: none;
+    }
+
+
+    #functionality-gain_FirstImg {
+        position: absolute;
+        top: 0%;
+        left: 3%;
+        width: 34vw;
+    }
+
+    .functionality-gain_integration {
+        position: inherit;
+        width: 9.85rem;
+        height: 12.85rem;
+    }
+
+    .functionality-step {
+        margin: 2em 0 0 25em;
+        padding-bottom: 0;
+    }
+
+    .functionality-step_top {
+        width: min-content;
+        padding: 0.75em 2em;
+    }
+
+    #integration_position {
+        margin-left: 26em;
+        
+    }
+
+    .functionality-gain_img {
+        padding: 0;
+        width: 2rem;
+        margin: 2.07rem 3.3rem 1.55rem;
+    }
+
+    .functionality-gain_txt {
+        padding: 0.5rem;
+    }
+    
+    #integration_position-two {
+        margin-bottom: 0;
+    }
+
+    .functionality-step_bottom {
+        margin: 1.5rem 1rem 1rem;
+      }
+    
+}
+
+@media screen and (min-width: 1530px) {
+    .functionality {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 6em 2em;
+      }
+    
+    .functionality-step {
+        margin: 2em 0 0 37rem;
+      }
+    
+      .functionality-gain {
+        align-items: center;
+        height: 39vh;
+        margin: auto;
+      }
+
+      #integration_position {
+        margin-left: 37rem;
+      }
+
+      .functionality-step_top,
+      .functionality-step_bottom {
+        font-size: 1.25em;
+      }
+
+    .functionality-step_middle {
+        font-size: 3.05em;
+      }
+
+      .functionality-step_bottom {
+        padding-bottom: 1rem;
+      }
+
+    .functionality-gain_integration {
+       margin: 0 2rem 0;
+       width: 14vw;
+       height: 26vh;
+    }
+
+    .functionality-gain_txt {
+        font-size: 1.25em;
+        padding-bottom: 2.37rem;
+    }
+
+    #functionality-gain_FirstImg {
+        top: 0%;
+        min-width: 30vw;
+        width: 32vw;
+        left: 2%;
+      }
+
+    #integration_position-two {
+        margin-right: 5em;
+    }
+
+    .functionality-gain_img {
+        width: 4rem;
+        margin: 0;
+        padding: 2rem 5rem 0rem;
+    }
+}
+
+
+
+@media screen and (min-width: 1900px) {
+    .functionality {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 6em 2em;
+      }
+    
+    .functionality-step {
+        margin: 2em 0 0 44em;
+      }
+    
+      .functionality-gain {
+        align-items: center;
+        height: 39vh;
+        margin: auto;
+      }
+
+      #integration_position {
+        margin-left: 45rem;
+      }
+
+      .functionality-step_top,
+      .functionality-step_bottom {
+        font-size: 1.25em;
+      }
+
+
+
+    .functionality-step_middle {
+        font-size: 3.05em;
+      }
+
+    .functionality-gain_integration {
+       margin: 0 2rem 0;
+       width: 14vw;
+    height: 26vh;
+    }
+
+    .functionality-gain_txt {
+        font-size: 1.25em;
+        padding-bottom: 2.37rem;
+    }
+
+    #functionality-gain_FirstImg {
+        top: 0%;
+        width: 30vw;
+      }
+
+    #integration_position-two {
+        margin-right: 5em;
+    }
+
+    .functionality-gain_img {
+        width: 4rem;
+        margin: 0;
+        padding: 2.68rem 5.87rem 1.75rem;
+      }
+}

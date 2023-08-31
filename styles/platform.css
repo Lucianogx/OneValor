@@ -1,0 +1,228 @@
+.platform {
+    display: flex; 
+}
+
+.platform-discovery {
+    padding: 5em 0 4rem 0.6em;
+    line-height: normal;
+}
+
+.platform-discovery_call {
+    font-size: 2em;
+    padding-right: 0.6em;
+    color: var(--purple);
+    font-weight: 300;
+    line-height: 1.5em; 
+    margin: 0 0 1em 0;
+}
+
+.platform-tablet {
+    background: var(--green);
+    width: 29vw;
+    height: 90vh;
+}
+
+#platform-discovery_one {
+    font-weight: bold;
+}
+
+#platform-discovery_point {
+    font-weight: bold;
+    color: var(--green);
+}
+
+.platform-discovery_experience {
+    font-weight: 400;
+    color: var(--blue-light);
+    line-height: 1.5em;
+}
+
+.platform-tablet_img {
+    position: absolute;
+    right: 0%;
+    width: 95%;
+    margin-top: 2em;
+}
+
+.platform-discovery_call-meet {
+    color: var(--purple);
+    font-size: 1em;
+    padding: 1em;
+    font-weight: 400;
+    line-height: 1.5em;
+    text-align: center;
+    padding-top: 115%;
+}
+
+.platform-discovery_discovery-link {
+    text-decoration: none;
+    color: var(--green);
+}
+.platform-discovery_discovery {
+    position: relative;
+    left: 0.5em;
+    background-color: var(--purple);
+    padding: 1em 4em;
+    border-radius: 5px;
+    font-size: 1em;
+    line-height: 1.5em;
+    text-align: center;
+    margin: 1em -0.5em 0;
+}
+
+.apresentation {
+    background-color: var(--purple);
+    padding: 1em;
+    width: 78vw;
+    border-radius: 50px;
+    margin:auto;
+    position: relative;
+    top: -2.5em;
+    line-height: 1.5em;
+    display: flex;
+    justify-content: center;
+}
+
+.apresentation-text {
+    margin-left: 10px;
+    text-align: left;
+}
+
+.apresentation-text_link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apresentation-text_item {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2em;
+    color: var(--green);
+    margin-left: 0.5em;
+}
+
+#apresentation-text_video {
+    color: var(--white);
+}
+
+@media screen and (min-width: 1024px) {
+    .platform-tablet {
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: -1;
+        width: 50%;
+        height: 85vh;
+    }
+
+    .platform-tablet_img {
+        width: 60%;
+        top: 16%;
+    }
+
+    .platform-discovery {
+        padding: 2em 0 0 0.6em;
+    }
+
+    .platform-discovery_call {
+        font-size: 3em;
+        padding: 0 1.6em 0 0.5em;
+        margin: 0 50% 0 0;
+    }
+
+    .platform-discovery_experience {
+        font-size: 1.5em;
+        margin-left: 1em;
+    }
+
+    .platform-discovery_call-meet {
+        padding: 4em 0 0 1.5em; 
+        text-align: left;
+    }
+
+    .platform-discovery_discovery {
+        position: inherit;
+        width: 25%;
+        font-size: 0.8em;
+        padding: 1.5rem 1rem;
+        margin: 1rem 0 4em 1.5em;
+    }
+
+    .apresentation {
+        position: relative;
+        top: 0;
+        margin: auto;
+        font-size: 0.85em;
+        padding: 0.4em 0.6em;
+        width: 28vw;
+    }
+
+    .apresentation-text img{
+        margin-right: 2px;
+    }
+
+    .apresentation-text_link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1530px) {
+    .platform-discovery {
+        margin: 5rem 0 0 5em;
+    }
+
+    .platform-discovery_call {
+        font-size: 3.77rem;
+        margin: 0 57% 0.5em 0;
+    }
+
+    .platform-tablet {
+        height: 140vh;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+    .apresentation {
+        font-size: 1.3em;
+        width: 23vw;
+        padding: 1rem 0.6rem;
+      }
+    
+    .platform-discovery {
+        margin: 9.25em 0 0 10em;
+        padding: 0;
+    }
+
+    .platform-tablet {
+        height: 116%;
+    }
+
+    .platform-discovery_call {
+        font-size: 4.75em;
+        width: 35%;
+        padding-left: 0;
+    }
+
+    .platform-discovery_experience {
+        font-size: 1.94em;
+        margin-left: 0;
+    }
+
+    .platform-discovery_call-meet {
+        font-size: 1.56em;
+        padding-left: 0;
+    }
+
+    .platform-discovery_discovery {
+        margin: 2em 0 7em 0;
+        font-size: 1.25em;
+        width: 23%;
+    }
+
+    .apresentation-text_item-container {
+        display: flex;
+    }
+}
