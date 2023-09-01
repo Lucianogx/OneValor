@@ -369,13 +369,6 @@
         padding: 0 12em;
     }
 
-    .background-container {
-        /* top: 280%; */
-        /* left: 0; */
-        /* min-height: 190%; */
-        /* height: 195%; */
-    }
-
     .cads-container {
         margin: 0 10rem 0;
       }
@@ -457,11 +450,6 @@
       .cads-container {
         justify-content: center;
         margin: 0 10rem 0;
-      }
-
-      .background-container {
-        /* top: 250%;
-        height: 170%; */
       }
 
       .broad-card {
