@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@300;500;600;700&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -151,70 +152,77 @@
                 </div>
             </div>
             <div class="cads-container">
-                <div class="cads-content">
-                    <div class="card-goes broad-card" id="card-1">
-                        <img class="broad-card_img" src="./img/icons/green/icon_01.svg" alt="Cifrao com círculo em volta">
-                        <p class="card-goes_top broad-card_txtHover">Simulação</p>
-                        <p class="card-goes_middle broad-card_hover">de cenários:</p>
-                        <p class="card-goes_bottom broad-card_txtHover">Veja como sua carteira reagiria em diferentes cenários do mercado, antes que eles realmente aconteçam.</p>
-                        <a href="#" class="card_link">
-                            <p class="card-goes_link">Saiba mais</p>
-                        </a>
+                <div class="wrapper">
+                    <i id="left" class="fa-solid fa-angle-left"></i>
+                    <div class="cads-content caroucel dragging">
+                        <div class="card-goes broad-card">
+                            <img class="broad-card_img" draggable="false" src="./img/icons/green/icon_01.svg" alt="Cifrao com círculo em volta">
+                            <p class="card-goes_top broad-card_txtHover">Simulação</p>
+                            <p class="card-goes_middle broad-card_hover">de cenários:</p>
+                            <p class="card-goes_bottom broad-card_txtHover">Veja como sua carteira reagiria em diferentes cenários do
+                                mercado, antes que eles realmente aconteçam.</p>
+                            <a href="#" class="card_link">
+                                <p class="card-goes_link">Saiba mais</p>
+                            </a>
+                        </div>
+                    
+                        <div class="card-plans broad-card">
+                            <img class="broad-card_img" draggable="false" src="./img/icons/green/icon_02.svg" alt="">
+                            <p class="card-plans_top broad-card_txtHover">Alertas Estratégicos</p>
+                            <p class="card-plans_middle broad-card_hover">& personalizado:</p>
+                            <p class="card-plans_bottom broad-card_txtHover">Configure alertas da sua maneira. Seja sobre variações de
+                                preço, notícias de uma determinada empresa, notificações de acordo com a sua carteira e muito mais.</p>
+                            <a href="#" class="card_link">
+                                <p class="card-plans_link">Saiba mais</p>
+                            </a>
+                        </div>
+                    
+                        <div class="card-progress broad-card">
+                            <img class="broad-card_img img_graphic" draggable="false" src="./img/icons/green/icon_bars_01.svg"
+                                alt="Representação simples de gráfico ascendente">
+                            <p class="card-progress_top broad-card_txtHover img_graphic">Ambiente</p>
+                            <p class="card-progress_middle broad-card_hover">educacional</p>
+                            <p class="card-progress_bottom broad-card_txtHover">Informações de valor para investidores de todos os níveis.
+                                Desde fundamentos até estratégias avançadas.</p>
+                            <a href="#" class="card_link">
+                                <p class="card-progress_link">Saiba mais</p>
+                            </a>
+                        </div>
+                    
+                        <div class="card-objetives broad-card">
+                            <img class="broad-card_img" draggable="false" src="./img/Grupo_138.png" alt="Desenho simples de celular com balão de notificação">
+                            <p class="card-objetives_top broad-card_txtHover">Centralização</p>
+                            <p class="card-objetives_middle broad-card_hover">de carteira</p>
+                            <p class="card-objetives_bottom broad-card_txtHover">Análises fragmentadas, deixam um ponto cegos. Reunimos seus
+                                ativos espalhados em diversas contas e corretoras de forma automática.</p>
+                            <a href="#" class="card_link">
+                                <p class="card-objetives_link">Saiba mais</p>
+                            </a>
+                        </div>
+                        <div class="card-objetives broad-card">
+                            <img class="broad-card_img" draggable="false" src="./img/Grupo_138.png" alt="Desenho simples de celular com balão de notificação">
+                            <p class="card-objetives_top broad-card_txtHover">Relatórios e Análises</p>
+                            <p class="card-objetives_middle broad-card_hover">de Especialistas:</p>
+                            <p class="card-objetives_bottom broad-card_txtHover">Entenda os pormenores de cada setor e expanda suas
+                                oportunidades.</p>
+                            <a href="#" class="card_link">
+                                <p class="card-objetives_link">Saiba mais</p>
+                            </a>
+                        </div>
+                        <div class="card-objetives broad-card">
+                            <img class="broad-card_img" draggable="false" src="./img/Grupo_138.png" alt="Desenho simples de celular com balão de notificação">
+                            <p class="card-objetives_top broad-card_txtHover">Comparação</p>
+                            <p class="card-objetives_middle broad-card_hover">de ativos:</p>
+                            <p class="card-objetives_bottom broad-card_txtHover">Com a definição de metas e o acompanhamento contínuo,
+                                você tem o controle necessário para alcançar seus objetivos financeiros.</p>
+                            <a href="#" class="card_link">
+                                <p class="card-objetives_link">Saiba mais</p>
+                            </a>
+                        </div>
                     </div>
-            
-                    <div class="card-plans broad-card">
-                        <img class="broad-card_img" src="./img/icons/green/icon_02.svg" alt="">
-                        <p class="card-plans_top broad-card_txtHover">Alertas Estratégicos</p>
-                        <p class="card-plans_middle broad-card_hover">& personalizado:</p>
-                        <p class="card-plans_bottom broad-card_txtHover">Configure alertas da sua maneira. Seja sobre variações de preço, notícias de uma determinada empresa, notificações de acordo com a sua carteira e muito mais.</p>
-                        <a href="#" class="card_link">
-                            <p class="card-plans_link">Saiba mais</p>
-                        </a>
-                    </div>
-            
-                    <div class="card-progress broad-card">
-                        <img class="broad-card_img img_graphic" src="./img/icons/green/icon_bars_01.svg"
-                            alt="Representação simples de gráfico ascendente">
-                        <p class="card-progress_top broad-card_txtHover img_graphic">Ambiente</p>
-                        <p class="card-progress_middle broad-card_hover">educacional</p>
-                        <p class="card-progress_bottom broad-card_txtHover">Informações de valor para investidores de todos os níveis. Desde fundamentos até estratégias avançadas.</p>
-                        <a href="#" class="card_link">
-                            <p class="card-progress_link">Saiba mais</p>
-                        </a>
-                    </div>
-            
-                    <div class="card-objetives broad-card">
-                        <img class="broad-card_img" src="./img/Grupo_138.png"
-                            alt="Desenho simples de celular com balão de notificação">
-                        <p class="card-objetives_top broad-card_txtHover">Centralização</p>
-                        <p class="card-objetives_middle broad-card_hover">de carteira</p>
-                        <p class="card-objetives_bottom broad-card_txtHover">Análises fragmentadas, deixam um ponto cegos. Reunimos seus ativos espalhados em diversas contas e corretoras de forma automática.</p>
-                        <a href="#" class="card_link">
-                            <p class="card-objetives_link">Saiba mais</p>
-                        </a>
-                    </div>
-                    <div class="card-objetives broad-card">
-                        <img class="broad-card_img" src="./img/Grupo_138.png"
-                            alt="Desenho simples de celular com balão de notificação">
-                        <p class="card-objetives_top broad-card_txtHover">Relatórios e Análises</p>
-                        <p class="card-objetives_middle broad-card_hover">de Especialistas:</p>
-                        <p class="card-objetives_bottom broad-card_txtHover">Entenda os pormenores de cada setor e expanda suas oportunidades.</p>
-                        <a href="#" class="card_link">
-                            <p class="card-objetives_link">Saiba mais</p>
-                        </a>
-                    </div>
-                    <div class="card-objetives broad-card">
-                        <img class="broad-card_img" src="./img/Grupo_138.png"
-                            alt="Desenho simples de celular com balão de notificação">
-                        <p class="card-objetives_top broad-card_txtHover">Comparação</p>
-                        <p class="card-objetives_middle broad-card_hover">de ativos:</p>
-                        <p class="card-objetives_bottom broad-card_txtHover">Com a definição de metas e o acompanhamento contínuo,
-                            você tem o controle necessário para alcançar seus objetivos financeiros.</p>
-                        <a href="#" class="card_link">
-                            <p class="card-objetives_link">Saiba mais</p>
-                        </a>
-                    </div>
+                    <i id="right" class="fa-solid fa-angle-right"></i>
                 </div>
+                
             
                 <div class="card-news">
                     <p class="card-news_top"><b id="emphasis">Notícias relevante <br>com a qualidade e isenção do </b>ValorOne.</p>
@@ -227,8 +235,6 @@
                 </div>
                 <div class="background-container-first"></div>
             </div>
-            
-            
         </section>
 
         <section class="functionality">
@@ -531,7 +537,7 @@
         </section>
         <footer></footer>
     <script src="./JS/dropdown.js"></script>
-    <script src="./JS/swiper-bundle.min.js"></script> 
+    <script src="./JS/slider.js"></script> 
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T2B496DR"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>

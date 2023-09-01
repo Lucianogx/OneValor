@@ -292,18 +292,9 @@
         padding: 1rem 0.5em 0.5em 16px;
     }
 
-    .cads-content {
+    /* .cads-content {
         display: flex;
-    }
-    
-    .broad-card {
-        font-size: 0.8em;
-        width: 25%;
-        height: 29.37rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-    }
+    } */
 
     .card-news {
         padding: 1.5em 30em 1em 5em;
@@ -332,6 +323,79 @@
     .card-goes_bottom, .card-plans_bottom, .card-progress_bottom, .card-objetives_bottom  {
         font-weight: 300;
     }
+
+    .broad-card {
+        height: auto;
+        width: 75%;
+        font-size: 0.8em;
+        height: 29.37rem;
+        display: flex;
+        flex-direction: column;
+       
+      }
+
+      .wrapper {
+        width: 100%;
+        /* max-width: 1000px; */
+      }
+
+      .wrapper i {
+        height: 50px;
+        width: 50px;
+        background-color: rgb(255, 255, 255);
+        z-index: 5;
+        position: absolute;
+        text-align: center;
+        line-height: 50px;
+        border-radius: 50%;
+        font-size: 1.5rem;
+        cursor: pointer;
+        transform: translateY(15rem);
+        box-shadow: 0 3px 6px black;
+      }
+
+      .wrapper i:first-child {
+        left: 1rem;
+      }
+      .wrapper i:last-child {
+        right: 1rem;
+        bottom: 67.4rem;
+      }
+
+      .wrapper .caroucel {
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: calc((100% / 3) - 16px);
+        gap: 16px;
+        overflow-x: auto;
+        justify-content: start;
+        padding-left: 2rem;
+        scroll-behavior: smooth;
+        scroll-snap-type: x mandatory;
+        scrollbar-width: none;
+      }
+
+      .caroucel .broad-card {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        scroll-snap-align: initial;
+        scroll-behavior: auto;
+      }
+
+      .caroucel.no-transition {
+        scroll-behavior: auto;
+      }
+
+      .caroucel.dragging {
+        cursor: pointer;
+        user-select: none;
+        scroll-behavior: auto;
+      }
+
+      .caroucel::-webkit-scrollbar {
+        display: none;
+      }
 }
 
 @media screen and (min-width: 1530px) {
@@ -455,10 +519,6 @@
         margin: 0 10rem 0;
       }
 
-      .broad-card {
-        height: auto;
-      }
-
       .broad-card.hovered {
         transform: scale(1.10); /* Aplicar crescimento no hover */
       }
@@ -527,6 +587,54 @@
 
       .background-container-first {
         height: 80rem;
+      }
+
+      .broad-card {
+        height: auto;
+        width: 80%;
+      }
+
+      .wrapper {
+        width: 100%;
+        /* max-width: 1000px; */
+      }
+
+      .wrapper i {
+        height: 50px;
+        width: 50px;
+        background-color: rgb(255, 255, 255);
+        z-index: 5;
+        position: absolute;
+        text-align: center;
+        line-height: 50px;
+        border-radius: 50%;
+        font-size: 1.5rem;
+        cursor: pointer;
+        transform: translateY(21rem);
+        box-shadow: 0 3px 6px black;
+      }
+
+      .wrapper i:first-child {
+        left: 7rem;
+      }
+      .wrapper i:last-child {
+        right: 10rem;
+        bottom: 91.4rem;
+      }
+
+      .wrapper .caroucel {
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: calc((100% / 3) - 12px);
+        gap: 16px;
+        overflow: hidden;
+        justify-content: start;
+      }
+
+      .caroucel .broad-card {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
       }
 
 }
