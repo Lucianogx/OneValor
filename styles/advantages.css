@@ -89,6 +89,10 @@
     opacity: 1;
 }
 
+.broad-card {
+    padding: 1rem;
+}
+
  .card-news_spam {
     display: none;
  }
