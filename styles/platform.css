@@ -3,15 +3,15 @@
 }
 
 .platform-discovery {
-    padding: 5em 0 4rem 0.6em;
+    padding: 3em 0 4rem 0.6em;
     line-height: normal;
 }
 
 .platform-discovery_call {
-    font-size: 2em;
+    font-size: 1.5em;
     padding-right: 0.6em;
     color: var(--purple);
-    font-weight: 300;
+    font-weight: 400;
     line-height: 1.5em; 
     margin: 0 0 1em 0;
 }
@@ -20,15 +20,6 @@
     background: var(--green);
     width: 29vw;
     height: 90vh;
-}
-
-#platform-discovery_one {
-    font-weight: bold;
-}
-
-#platform-discovery_point {
-    font-weight: bold;
-    color: var(--green);
 }
 
 .platform-discovery_experience {
