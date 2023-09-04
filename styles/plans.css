@@ -167,7 +167,7 @@
         background-image: url(../img/img_planos__.png);
         background-repeat: no-repeat;
         background-position: right top;
-        background-size: cover;
+        background-size: 30% 100%;
     }
 
     .plans-txt_container {
@@ -249,7 +249,7 @@
     }
 
 
-    /* wrapper */
+    /* wrapper 1024px */
 
     .slide-container {
         overflow: hidden;
@@ -326,7 +326,6 @@
         background-size: 17em 82em;
         height: 95rem;
         background-size: 20% 100%;
-        overflow: hidden;
     }
 
     .plans-txt_container {
@@ -386,6 +385,15 @@
         padding-top: 0;
         font-size: 3.05rem;
     }
+
+    .slide-content i:first-child {
+        left: 8rem;
+    }
+
+    .slide-content i:last-child {
+        right: 18.5rem;
+        top: 505.1rem;
+    }
 }
 
 @media screen and (min-width: 1900px) {
@@ -436,5 +444,19 @@
     .plans-cards_top {
         margin-bottom: 1.75rem;
         font-size: 3.05rem;
+    }
+
+    .slide-content i:first-child {
+        left: 5rem;
+    }
+
+    .slide-content i:last-child {
+        right: 1rem;
+        top: 589.6rem;
+    }
+    /* Wrapper 1920px */
+    .slide-content .caroucel_sell {
+        grid-auto-columns: calc((100% / 4) - 12px);
+        padding-left: 9rem;
     }
 }

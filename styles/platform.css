@@ -162,17 +162,22 @@
 
 @media screen and (min-width: 1530px) {
     .platform-discovery {
-        margin: 5rem 0 0 5em;
+        margin: 5rem 0 0 3.7em;
+        padding: 0;
     }
 
     .platform-discovery_call {
-        font-size: 3.77rem;
+        font-size: 2.77rem;
         margin: 0 57% 0.5em 0;
     }
 
     .platform-tablet {
         height: 80rem;
         min-height: 76rem;
+    }
+
+    .platform-discovery_discovery {
+        margin-bottom: 14rem;
     }
 }
 

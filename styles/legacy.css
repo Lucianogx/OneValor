@@ -236,7 +236,7 @@
 @media screen and (min-width: 1900px) {
 
     .legacy-card {
-        height: 43vh;
+        height: 26rem;
     }
     .legacy-container { 
     padding: 7rem 12em;
