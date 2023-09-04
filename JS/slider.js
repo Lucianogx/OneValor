@@ -19,7 +19,7 @@ carouselChildrens.slice(0, cardPerView).forEach(card => {
     carousel.insertAdjacentHTML("beforeend", card.outerHTML);
 });
 
-// Adicionado um listeners para o arrow buttons do rolamento do carrosel esquerdo e direito
+// Adiciona listeners para o arrow buttons do rolamento do carrosel esquerdo e direito
 arrowBtns.forEach(btn => {
     btn.addEventListener("click", () => {
         carousel.scrollLeft += btn.id === "left" ? -firstCardWidth : firstCardWidth;
@@ -60,5 +60,5 @@ const InfinityScroll = () => {
 
 carousel.addEventListener("mousedown", dragStart);
 carousel.addEventListener("mousemove", dragging);
+carousel.addEventListener("scroll", InfinityScroll);
 document.addEventListener("mouseup", dragStop);
-carousel.addEventListener("scroll", InfinityScroll)
