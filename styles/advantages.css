@@ -1,101 +1,101 @@
-.advantages{
-    background-color: var(--gray);
-    position: relative;
+.advantages {
+  background-color: var(--gray);
+  position: relative;
 }
 
 .advantages-container {
-    color: var(--purple);
-    font-weight: 300; 
-    
+  color: var(--purple);
+  font-weight: 300;
+
 }
 
 .advantages-text,
 .advantages-text_vision,
 .advantages-wallet_middle {
-    padding: 1rem 0.5em 1em 16px;
-    line-height: 1.5em;
+  padding: 1rem 0.5em 1em 16px;
+  line-height: 1.5em;
 }
 
 .advantages-text_emphasis {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 #advantages-text_exclamation {
-    color: var(--blue-light);
-    font-weight: bold;
+  color: var(--blue-light);
+  font-weight: bold;
 }
 
 .advantages-container_wallet {
-    display: flex;
+  display: flex;
 }
 
 .advantages-container_leftColor {
-    background-color: var(--purple);
-    width: 3em;
-    border-radius: 35px 0 0 35px;
+  background-color: var(--purple);
+  width: 3em;
+  border-radius: 35px 0 0 35px;
 }
 
 .advantages-text,
 .advantages-wallet_top {
-    border: solid 2px var(--green);
-    border-radius: 8px;
-    width: 62%;
-    padding: 0.75em 0.75em;
-    margin: 0 1em ;
-    font-size: 1em;
-    font-weight: 300;
-    color: var(--purple);
-    text-align: center;
+  border: solid 2px var(--green);
+  border-radius: 8px;
+  width: 62%;
+  padding: 0.75em 0.75em;
+  margin: 0 1em;
+  font-size: 1em;
+  font-weight: 300;
+  color: var(--purple);
+  text-align: center;
 }
 
 
 .advantages-text_vision,
 .advantages-wallet_middle {
-    font-size: 2em;
+  font-size: 2em;
 }
 
 .advantages-wallet_middle {
-    font-weight: 900;
+  font-weight: 900;
 }
 
 .advantages-text_quality {
-    padding: 1.5em;
-    border-left: solid 5px var(--green);
-    margin: 0 0.8em 5em;
-    font-size: 1em;
-    line-height: 1.5em;
-    font-weight: 300;
-    text-align: left;
+  padding: 1.5em;
+  border-left: solid 5px var(--green);
+  margin: 0 0.8em 5em;
+  font-size: 1em;
+  line-height: 1.5em;
+  font-weight: 300;
+  text-align: left;
 }
 
 .advantages-wallet_botton {
-    margin: 0 1em;
-    font-size: 1em;
-    line-height: 1.5em;
-    text-align: left;
+  margin: 0 1em;
+  font-size: 1em;
+  line-height: 1.5em;
+  text-align: left;
 }
 
 
 .broad-card,
 .card-news {
-    background-color: var(--white);
-    border: 1px solid var(--white);
-    margin: 4em 1em;
-    border-radius: 15px ;
-    height: fit-content;
-    font-weight: normal;
-    color: var(--purple);
-    text-align: left;
-    opacity: 1;
+  background-color: var(--white);
+  border: 1px solid var(--white);
+  margin: 4em 1em;
+  border-radius: 15px;
+  height: fit-content;
+  font-weight: normal;
+  color: var(--purple);
+  text-align: left;
+  opacity: 1;
 }
 
 .broad-card {
-    padding: 1rem;
+  padding: 1rem;
 }
 
- .card-news_spam {
-    display: none;
- }
+.card-news_spam {
+  display: none;
+}
 
 /* .broad-card:hover{
     background-color: var(--green);
@@ -106,109 +106,110 @@
 .card-plans_top,
 .card-progress_top,
 .card-objetives_top {
-    font-size: 1.5em;
-    padding-left: 2.5rem;
-    line-height: 1.5em;
-    font-weight: 900;
+  font-size: 1.5em;
+  padding-left: 2.5rem;
+  line-height: 1.5em;
+  font-weight: 900;
 }
 
 .card-goes_middle,
 .card-plans_middle,
 .card-progress_middle,
 .card-objetives_middle {
-    color: var(--green);
-    font-size: 1.5em;
-    padding-left: 2.5rem;
+  color: var(--green);
+  font-size: 1.5em;
+  padding-left: 2.5rem;
 }
 
 .card-goes_bottom,
 .card-plans_bottom,
 .card-progress_bottom,
 .card-objetives_bottom {
-    padding: 1.5rem 2.5rem 1.5rem;
-    line-height: 1.5em;
-    font-weight: 400;
+  padding: 1.5rem 2.5rem 1.5rem;
+  line-height: 1.5em;
+  font-weight: 400;
 }
 
 .card-goes_link,
 .card-plans_link,
 .card-progress_link,
 .card-objetives_link {
-    padding: 1.5rem 2.8rem;
-    text-align: center;
-    background-color: var(--purple);
-    margin: 0 2.5rem 0;
-    border-radius: 8px;
-    
+  padding: 1.5rem 2.8rem;
+  text-align: center;
+  background-color: var(--purple);
+  margin: 0 2.5rem 0;
+  border-radius: 8px;
+
 }
 
 .card_link {
-    text-decoration: none;
-    color: var(--white);
-    margin: auto 1rem 4rem 0;
-    font-weight: 700;
+  text-decoration: none;
+  color: var(--white);
+  margin: auto 1rem 4rem 0;
+  font-weight: 700;
 }
 
 .broad-card_img {
-    margin: 2.5rem 0 1rem 2.5rem;
-    width: 4rem;
+  margin: 2.5rem 0 1rem 2.5rem;
+  width: 4rem;
 }
 
 #emphasis {
-    color: var(--green);
+  color: var(--green);
 }
 
 .card-news {
-    background-color: var(--white);
-    padding: 2.5rem 2.5rem 0 2.5rem;
-    background-image: url(../img/Retângulo_87.png);
-    background-repeat: no-repeat;
+  background-color: var(--white);
+  padding: 2.5rem 2.5rem 0 2.5rem;
+  background-image: url(../img/Retângulo_87.png);
+  background-repeat: no-repeat;
 }
 
 .card-news_top {
-    font-size: 1.6em;
-    line-height: 1.5em;
-    margin-bottom: 1.5rem;
-    font-weight: 900;
+  font-size: 1.6em;
+  line-height: 1.5em;
+  margin-bottom: 1.5rem;
+  font-weight: 900;
 }
+
 .card-news_spamBox,
 .card-news_spam {
-    color: var(--green);
+  color: var(--green);
 }
 
 .card-news_spamBox {
-    background-color: var(--purple);
-    padding: 1rem 1.5rem;
-    border-radius: 50px;
-    position: relative;
-    left: -1em;
-    text-align: center;
-    width: 63%;
-    margin-bottom: 4.31rem;
+  background-color: var(--purple);
+  padding: 1rem 1.5rem;
+  border-radius: 50px;
+  position: relative;
+  left: -1em;
+  text-align: center;
+  width: 63%;
+  margin-bottom: 4.31rem;
 }
 
 .card-news_spamBox_txt {
-    display: none;
+  display: none;
 }
 
 .card-news_spam {
-    margin: 1em 0 2.5em;
+  margin: 1em 0 2.5em;
 }
 
 .card-news_middle,
 .card-news_bottom {
-    line-height: 1.2em;
-    text-align: left;
+  line-height: 1.2em;
+  text-align: left;
 }
 
 .card-news_middle {
-    margin: 0 0 2.5em;
+  margin: 0 0 2.5em;
 }
 
 .card-news,
 .broad-card {
-    position: relative;
-    z-index: 1;
+  position: relative;
+  z-index: 1;
 }
 
 
@@ -218,315 +219,454 @@
 }
 
 .background-img {
-    height: 350px;
+  height: 350px;
 }
 
 .background-container-first {
-    background: var(--green);
-    position: absolute;
-    width: 100%;
-    height: 60rem;
-    z-index: 0;
-    bottom: -5%;
+  background: var(--green);
+  position: absolute;
+  width: 100%;
+  height: 60rem;
+  z-index: 0;
+  bottom: -5%;
 }
 
 .background-container {
-    background: var(--green);
-    position: absolute;
-    width: 100%;
-    height: 80%;
-    z-index: -1;
-    top: 0;
+  background: var(--green);
+  position: absolute;
+  width: 100%;
+  height: 80%;
+  z-index: -1;
+  top: 0;
 }
 
 
 
 
 @media screen and (min-width: 1024px) {
-    .advantages {
-        padding-top: 5em;
-    }
+  .advantages {
+    padding-top: 5em;
+  }
 
-    .advantages-text,
-    .advantages-wallet_top {
-        font-size: 1.25rem;
-    }
-    
-    .advantages-text,
-    .advantages-wallet_top {
-       width: 28vw; 
-    }
+  .advantages-text,
+  .advantages-wallet_top {
+    font-size: 1.25rem;
+  }
 
-    .advantages-text_main {
+  .advantages-text,
+  .advantages-wallet_top {
+    width: 28vw;
+  }
+
+  .advantages-text_main {
+    display: flex;
+    margin: 5em 5em 0;
+  }
+
+  .advantages-text_quality {
+    margin: 3em 3em 0 0;
+    padding: 2.5em 1.5em 0 3em;
+  }
+
+  .advantages-container_rightColor {
+    background-color: var(--purple);
+    width: 13em;
+    border-radius: 0 35px 35px 0;
+  }
+
+  .advantages-container_leftColor {
+    width: 13em;
+  }
+
+  .advantages-container_wallet-infos {
+    padding: 0 3.5em;
+    width: 50vw;
+  }
+
+  .advantages-container_wallet {
+    margin: 6rem 0 6rem 0;
+  }
+
+  .advantages-text,
+  .advantages-text_vision,
+  .advantages-wallet_middle {
+    padding: 1rem 0.5em 0.5em 16px;
+  }
+
+  /* .cads-content {
         display: flex;
-        margin: 5em 5em 0;
-    }
+    } */
 
-    .advantages-text_quality {
-        margin: 3em 3em 0 0;
-        padding: 2.5em 1.5em 0 3em;
-    }
+  .card-news {
+    padding: 2em 30em 2em 5em;
+    height: auto;
+    background-position: right;
+    background-image: url(../img/Retângulo_87b.png);
+    background-size: cover;
 
-    .advantages-container_rightColor {
-        background-color: var(--purple);
-        width: 13em;
-        border-radius: 0 35px 35px 0;
-    }
+  }
 
-    .advantages-container_leftColor{
-        width: 13em;
-    }
+  .card-news_top {
+    padding-right: 5em;
+  }
 
-    .advantages-container_wallet-infos {
-        padding: 0 3.5em;
-        width: 50vw;
-    }
+  .card-news_spamBox {
+    left: 0;
+    width: 50%;
+  }
 
-    .advantages-container_wallet {
-        margin: 6rem 0 6rem 0;
-    }
+  .card-news_spamBox_txt {
+    display: inline;
+  }
 
-    .advantages-text,
-    .advantages-text_vision,
-    .advantages-wallet_middle {
-        padding: 1rem 0.5em 0.5em 16px;
-    }
 
-    .cads-content {
-        display: flex;
-    }
-    
-    .broad-card {
-        font-size: 0.8em;
-        width: 25%;
-        height: 29.37rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-    }
+  .card-goes_bottom,
+  .card-plans_bottom,
+  .card-progress_bottom,
+  .card-objetives_bottom {
+    font-weight: 300;
+  }
 
-    .card-news {
-        padding: 1.5em 30em 1em 5em;
-        height: auto;
-        background-position: right;
-        background-image: url(../img/Retângulo_87b.png);
-        background-size: cover;
-    
-    }
+  .broad-card {
+    height: auto;
+    width: 75%;
+    font-size: 0.8em;
+    height: 29.37rem;
+    display: flex;
+    flex-direction: column;
 
-    .card-news_top {
-        padding-right: 5em;
-        margin-top: 2em;
-    }
+  }
 
-    .card-news_spamBox {
-        left: 0;
-        width: 50%;
-    }
+  .wrapper {
+    width: 100%;
+    /* max-width: 1000px; */
+  }
 
-    .card-news_spamBox_txt {
-        display: inline;
-    }
-   
+  .wrapper i {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(255, 255, 255);
+    z-index: 5;
+    position: absolute;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transform: translateY(15rem);
+    box-shadow: 0 3px 6px black;
+  }
 
-    .card-goes_bottom, .card-plans_bottom, .card-progress_bottom, .card-objetives_bottom  {
-        font-weight: 300;
-    }
+  .wrapper i:first-child {
+    left: 1rem;
+  }
+
+  .wrapper i:last-child {
+    right: 1rem;
+    bottom: 67.4rem;
+  }
+
+  .wrapper .caroucel {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100% / 3) - 16px);
+    gap: 16px;
+    overflow-x: auto;
+    justify-content: start;
+    padding-left: 2rem;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+  }
+
+  .caroucel .broad-card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    scroll-snap-align: initial;
+    scroll-behavior: auto;
+  }
+
+  .caroucel.no-transition {
+    scroll-behavior: auto;
+  }
+
+  .caroucel.dragging {
+    cursor: pointer;
+    user-select: none;
+    scroll-behavior: auto;
+  }
+
+  .caroucel::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 1530px) {
-    .advantages {
-        padding-top: 7em;
-      }
-    
-    .advantages-text_main {
-        margin: 5em 8em 0;
-        padding-right: 5rem;
-    }
+  .advantages {
+    padding-top: 7em;
+  }
 
-    .advantages-text_quality {
-        margin: 5em 1.2em 0 0;
-        padding: 2.5em 0em 0 3em;
-        width: 25vw;
-    }
+  .advantages-text_main {
+    margin: 5em 8em 0;
+    padding-right: 5rem;
+  }
 
-    .advantages-wallet_top,
-    .advantages-wallet_botton {
-      font-size: 1em;
-    }
+  .advantages-text_quality {
+    margin: 5em 1.2em 0 0;
+    padding: 2.5em 0em 0 3em;
+    width: 25vw;
+  }
 
-    .advantages-text_vision, 
-    .advantages-wallet_middle {
-      font-size: 3rem;
-    }
+  .advantages-wallet_top,
+  .advantages-wallet_botton {
+    font-size: 1em;
+  }
 
-    .advantages-text, .advantages-wallet_top {
-        width: 15vw;
-      }
+  .advantages-text_vision,
+  .advantages-wallet_middle {
+    font-size: 3rem;
+  }
 
-    .advantages-container_wallet-infos {
-        padding: 0 12em;
-    }
+  .advantages-text,
+  .advantages-wallet_top {
+    width: 15vw;
+  }
 
-    .cads-container {
-        padding-bottom: 4rem;
-    }
+  .advantages-container_wallet-infos {
+    padding: 0 12em;
+  }
 
-    .cads-content {
-        margin: 0 10rem 0;
-      }
-    
-    .card-news {
-        width: auto;
-        margin: 0 7rem 0;
-    }
+  .cads-container {
+    padding-bottom: 4rem;
+  }
 
-    .card_link {
-        margin: auto 0 2rem 0;
-      }
-    
-    .img_graphic img{
-        margin-bottom: 2rem;
-    }
+  .cads-content {
+    margin: 0 10rem 0;
+  }
 
-    .card-news_top {
-        font-size: 3.05em;
-        margin-bottom: 0.5em;
-        font-weight: 900;
-        line-height: 1.5em;
-        margin-top: 0rem;
-      }
+  .card-news {
+    width: auto;
+    margin: 0 7rem 0;
+    padding: 2.5em 30em 2.5em 5em;
+  }
 
-    .card-news_middle, 
-    .card-news_bottom {
-        padding-right: 12rem;
-      }
+  .card_link {
+    margin: auto 0 2rem 0;
+  }
+
+  .img_graphic img {
+    margin-bottom: 2rem;
+  }
+
+  .card-news_top {
+    font-size: 3.05em;
+    margin-bottom: 0.5em;
+    font-weight: 900;
+    line-height: 1.5em;
+  }
+
+  .card-news_middle,
+  .card-news_bottom {
+    padding-right: 12rem;
+    font-size: 1rem;
+  }
+
+  .card-goes_bottom,
+  .card-plans_bottom,
+  .card-progress_bottom,
+  .card-objetives_bottom {
+    font-weight: 400;
+    font-size: 1rem;
+  }
+
+  .wrapper i:first-child {
+    left: 9rem;
+  }
+
+  .wrapper i:last-child {
+    right: 10rem;
+    bottom: 77rem;
+  }
 }
 
 @media screen and (min-width: 1900px) {
-    .advantages {
-        padding-top: 9em;
-      }
-    
-      .advantages-container_rightColor,
-      .advantages-container_leftColor {
-        width: 28em;
-        height: 34vh;
-      }
+  .advantages {
+    padding-top: 9em;
+  }
 
-      .advantages-wallet_top,
-      .advantages-wallet_botton {
-        font-size: 1.25em;
-      }
+  .advantages-container_rightColor,
+  .advantages-container_leftColor {
+    width: 28em;
+    height: 34vh;
+  }
 
-      .advantages-text_vision, 
-      .advantages-wallet_middle {
-        font-size: 2.93rem;
-      }
+  .advantages-wallet_top,
+  .advantages-wallet_botton {
+    font-size: 1.25em;
+  }
 
-      .advantages-wallet_middle {
-        font-size: 3.05em;
-        padding: 0.3em 0.5em 0.3em 16px;
-      }
+  .advantages-text_vision,
+  .advantages-wallet_middle {
+    font-size: 2.93rem;
+  }
 
-      .advantages-text_emphasis {
-        font-weight: 900;
-      }
+  .advantages-wallet_middle {
+    font-size: 3.05em;
+    padding: 0.3em 0.5em 0.3em 16px;
+  }
 
-      .advantages-text_quality {
-        font-size: 1.56rem;
-        padding: 0.87rem 0 0.87rem 4em;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin: 3em 1.2em 0 0;
-        }
+  .advantages-text_emphasis {
+    font-weight: 900;
+  }
 
-        .advantages-text_main {
-        margin: 2em 5.75rem 0 13rem;
-        }
+  .advantages-text_quality {
+    font-size: 1.56rem;
+    padding: 0.87rem 0 0.87rem 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 3em 1.2em 0 0;
+  }
 
-        .advantages-text_left {
-            padding-right: 8rem;
-        }
+  .advantages-text_main {
+    margin: 2em 5.75rem 0 13rem;
+  }
 
-      .cads-content {
-        justify-content: center;
-        margin: 0 10rem 0;
-      }
+  .advantages-text_left {
+    padding-right: 8rem;
+  }
 
-      .broad-card {
-        height: auto;
-      }
+  .cads-content {
+    justify-content: center;
+    margin: 0 10rem 0;
+  }
 
-      .broad-card.hovered {
-        transform: scale(1.10); /* Aplicar crescimento no hover */
-      }
+  .broad-card.hovered {
+    transform: scale(1.10);
+    /* Aplicar crescimento no hover */
+  }
 
-      .card_link {
-        width: 15vw;
-        margin: 0 auto 3rem;        
-      }
-      
+  .card_link {
+    width: 15vw;
+    margin: 0 auto 3rem;
+  }
 
-      .broad-card_img {
-        margin: 4.5rem 3.5rem 1rem;
-      }
 
-      .card-goes_top, .card-plans_top, .card-progress_top, .card-objetives_top {
-        margin: 0 2.5em 0;
-        padding-left: 0;
-        font-size: 1.56rem;
-      }
+  .broad-card_img {
+    margin: 4.5rem 3.5rem 1rem;
+  }
 
-      .card-goes_middle, .card-plans_middle, .card-progress_middle, .card-objetives_middle {
-        margin: 0 2.5em 1.5em;
-        padding-left: 0;
-        font-size: 1.56rem;
-      }
+  .card-goes_top,
+  .card-plans_top,
+  .card-progress_top,
+  .card-objetives_top {
+    margin: 0 2.5em 0;
+    padding-left: 0;
+    font-size: 1.56rem;
+  }
 
-      .card-goes_bottom, .card-plans_bottom, .card-progress_bottom, .card-objetives_bottom {
-        margin: 0 3.5em 2.5em;
-        padding: 0;
-        font-size: 1.25rem;
-      }
+  .card-goes_middle,
+  .card-plans_middle,
+  .card-progress_middle,
+  .card-objetives_middle {
+    margin: 0 2.5em 1.5em;
+    padding-left: 0;
+    font-size: 1.56rem;
+  }
 
-      .card-news {
-        width: auto;
-        margin: 0 7rem 0;
-        padding: 5em 30em 5em 5em;
-      }
-    
-      .card-news_top {
-        font-size: 3.05em;
-        padding-right: 8em;
-        margin-bottom: 0.5em;
-        font-weight: 900;
-        line-height: 1.5em;
-        margin-top: 0rem;
-      }
+  .card-goes_bottom,
+  .card-plans_bottom,
+  .card-progress_bottom,
+  .card-objetives_bottom {
+    margin: 0 3.5em 2.5em;
+    padding: 0;
+    font-size: 1.25rem;
+  }
 
-      .card-goes_link, .card-plans_link, .card-progress_link, .card-objetives_link {
-        margin: 0;
-        font-size: 1.25rem;
-      }
+  .card-news {
+    width: auto;
+    margin: 0 7rem 0;
+    padding: 5em 30em 5em 5em;
+  }
 
-      .card-news_spamBox,
-      .card-news_middle, 
-      .card-news_bottom {
-        font-size: 1.56rem;
-      }
+  .card-news_top {
+    font-size: 3.05em;
+    padding-right: 8em;
+    margin-bottom: 0.5em;
+    font-weight: 900;
+    line-height: 1.5em;
+    margin-top: 0rem;
+  }
 
-      .card-news_spamBox {
-        width: fit-content;
-      }
+  .card-goes_link,
+  .card-plans_link,
+  .card-progress_link,
+  .card-objetives_link {
+    margin: 0;
+    font-size: 1.25rem;
+  }
 
-      .card-news_bottom {
-        margin-right: 26rem;
-      }
+  .card-news_spamBox,
+  .card-news_middle,
+  .card-news_bottom {
+    font-size: 1.56rem;
+  }
 
-      .background-container-first {
-        height: 80rem;
-      }
+  .card-news_spamBox {
+    width: fit-content;
+  }
+
+  .card-news_bottom {
+    margin-right: 26rem;
+  }
+
+  .background-container-first {
+    height: 80rem;
+  }
+
+  .broad-card {
+    height: auto;
+    width: 80%;
+  }
+
+  .wrapper i {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(255, 255, 255);
+    z-index: 5;
+    position: absolute;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transform: translateY(21rem);
+    box-shadow: 0 3px 6px black;
+  }
+
+  .wrapper i:first-child {
+    left: 7rem;
+  }
+
+  .wrapper i:last-child {
+    right: 10rem;
+    bottom: 91.4rem;
+  }
+
+  .wrapper .caroucel {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100% / 3) - 12px);
+    gap: 16px;
+    overflow: hidden;
+    justify-content: start;
+  }
+
+  .caroucel .broad-card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
 
 }

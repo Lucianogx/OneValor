@@ -177,7 +177,7 @@
     .functionality-gain_integration {
        margin: 0 2rem 0;
        width: 14vw;
-       height: 26vh;
+       height: 32vh;
     }
 
     .functionality-gain_txt {
@@ -187,9 +187,10 @@
 
     #functionality-gain_FirstImg {
         top: 0%;
-        min-width: 25vw;
-        width: 32vw;
-        left: 2%;
+        min-width: 28vw;
+        width: 30vw;
+        max-width: 31vw;
+        left: 6%;
       }
 
     #integration_position-two {
@@ -251,7 +252,7 @@
     #functionality-gain_FirstImg {
         top: 0%;
         width: 25vw;
-        left: 10%;
+        left: 7%;
       }
 
     #integration_position-two {

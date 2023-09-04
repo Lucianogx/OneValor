@@ -185,7 +185,7 @@
     .legacy-card {
         width: 33%;
         height: 44rem;
-        font-size: 1rem;
+        font-size: 0.7rem;
     }
 
     .legacy-card_fettle {
@@ -236,7 +236,7 @@
 @media screen and (min-width: 1900px) {
 
     .legacy-card {
-        height: 43vh;
+        height: 26rem;
     }
     .legacy-container { 
     padding: 7rem 12em;
