@@ -337,6 +337,13 @@
 
   }
 
+    .card-goes_link,
+    .card-plans_link,
+    .card-progress_link,
+    .card-objetives_link {
+      padding: 1.5rem 2rem;
+    }
+
   .wrapper {
     width: 100%;
     /* max-width: 1000px; */
@@ -651,7 +658,7 @@
 
   .wrapper i:last-child {
     right: 10rem;
-    bottom: 91.4rem;
+    bottom: 93.4rem;
   }
 
   .wrapper .caroucel {

@@ -277,7 +277,7 @@
 
     .slide-content i:last-child {
         right: 1rem;
-        top: 455.5rem;
+        top: 440rem;
     }
 
     .slide-content .caroucel_sell {
@@ -454,6 +454,7 @@
         right: 1rem;
         top: 589.6rem;
     }
+
     /* Wrapper 1920px */
     .slide-content .caroucel_sell {
         grid-auto-columns: calc((100% / 4) - 12px);

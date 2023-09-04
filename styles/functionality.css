@@ -83,6 +83,7 @@
     .functionality {
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
     }
 
     .functionality-gain {
@@ -97,7 +98,8 @@
         position: absolute;
         top: 0%;
         left: 3%;
-        width: 34vw;
+        min-width: 22rem;
+        width: 24rem;
     }
 
     .functionality-gain_integration {
@@ -118,7 +120,7 @@
 
     #integration_position {
         margin-left: 26em;
-        
+
     }
 
     .functionality-gain_img {
@@ -130,54 +132,54 @@
     .functionality-gain_txt {
         padding: 0.5rem;
     }
-    
+
     #integration_position-two {
         margin-bottom: 0;
     }
 
     .functionality-step_bottom {
         margin: 1.5rem 1rem 1rem;
-      }
-    
+    }
+
 }
 
 @media screen and (min-width: 1530px) {
     .functionality {
         display: flex;
         flex-wrap: wrap;
-      }
-    
+    }
+
     .functionality-step {
         margin: 2em 0 0 37rem;
-      }
-    
-      .functionality-gain {
+    }
+
+    .functionality-gain {
         align-items: center;
         height: 39vh;
         margin: auto;
-      }
+    }
 
-      #integration_position {
+    #integration_position {
         margin-left: 37rem;
-      }
+    }
 
-      .functionality-step_top,
-      .functionality-step_bottom {
+    .functionality-step_top,
+    .functionality-step_bottom {
         font-size: 1.25em;
-      }
+    }
 
     .functionality-step_middle {
         font-size: 3.05em;
-      }
+    }
 
-      .functionality-step_bottom {
+    .functionality-step_bottom {
         padding-bottom: 1rem;
-      }
+    }
 
     .functionality-gain_integration {
-       margin: 0 2rem 0;
-       width: 14vw;
-       height: 32vh;
+        margin: 0 2rem 0;
+        width: 14vw;
+        height: 32vh;
     }
 
     .functionality-gain_txt {
@@ -191,7 +193,7 @@
         width: 30vw;
         max-width: 31vw;
         left: 6%;
-      }
+    }
 
     #integration_position-two {
         margin-right: 5em;
@@ -210,38 +212,38 @@
     .functionality {
         display: flex;
         flex-wrap: wrap;
-      }
-    
+    }
+
     .functionality-step {
         margin: 2em 0 0 44em;
-      }
-    
-      .functionality-gain {
+    }
+
+    .functionality-gain {
         align-items: center;
         height: 39vh;
         margin: auto;
         width: 90%;
-      }
+    }
 
-      #integration_position {
+    #integration_position {
         margin-left: 45rem;
-      }
+    }
 
-      .functionality-step_top,
-      .functionality-step_bottom {
+    .functionality-step_top,
+    .functionality-step_bottom {
         font-size: 1.25em;
-      }
+    }
 
 
 
     .functionality-step_middle {
         font-size: 3.05em;
-      }
+    }
 
     .functionality-gain_integration {
-       margin: 0 2rem 0;
-       width: 14vw;
-    height: 26vh;
+        margin: 0 2rem 0;
+        width: 14vw;
+        height: 26vh;
     }
 
     .functionality-gain_txt {
@@ -253,7 +255,7 @@
         top: 0%;
         width: 25vw;
         left: 7%;
-      }
+    }
 
     #integration_position-two {
         margin-right: 5em;
@@ -263,5 +265,5 @@
         width: 4rem;
         margin: 0;
         padding: 2.68rem 5.87rem 1.75rem;
-      }
+    }
 }

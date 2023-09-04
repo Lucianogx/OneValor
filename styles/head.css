@@ -3,7 +3,7 @@
     justify-content: space-between;
     position: relative;
 }
- 
+
 .head-menu_haburguer {
     position: relative;
     display: flex;
@@ -38,7 +38,7 @@
 }
 
 
-.head{
+.head {
     display: none;
 }
 
@@ -56,7 +56,7 @@
 }
 
 
-.head-botao:checked ~ .head-menu {
+.head-botao:checked~.head-menu {
     display: block;
 }
 
@@ -85,8 +85,7 @@
 
 @media screen and (min-width: 1024px) {
 
-    .container
-     {
+    .container {
         display: none;
     }
 
@@ -94,32 +93,32 @@
         display: flex;
         justify-content: space-between;
     }
-    
+
     .head_menu {
         display: flex;
         justify-content: space-around;
         width: 50%;
-        border-bottom: 2px solid var(--purple-dark) ;
+        border-bottom: 2px solid var(--purple-dark);
     }
-    
+
     .head_menu-list {
         display: flex;
         margin-left: 1rem;
     }
-    
+
     .head_menu-titulo {
         padding: 3.5em 0.75em 0;
     }
-    
+
     .head_menu-titulo:hover {
         border-bottom: 5px solid var(--purple);
     }
-    
+
     .head_menu-logo {
         padding: 2.8em 0 2.5em 1em;
         width: 8em;
     }
-    
+
     .head_menu-link,
     .head-logIn_usuario-link,
     .head-logIn_access-link {
@@ -127,31 +126,31 @@
         text-align: center;
         border-bottom: none;
     }
-    
+
     .head_menu-link {
         color: var(--purple);
     }
-    
+
     .head_menu-link:hover {
         font-weight: bold;
     }
-    
+
     .head-logIn_usuario {
         display: flex;
         padding: 2.2em 3em 0;
     }
-    
+
     .head-logIn_usuario-cadastro {
         padding: 1.4em 1.5em;
         background-color: var(--purple);
         border-radius: 5px;
     }
-    
+
     .head-logIn_usuario-link {
         color: var(--green);
         border-bottom: none;
     }
-    
+
     .head-logIn_access {
         padding: 1.2em 1.4em;
         border: solid 2px var(--white);
@@ -175,7 +174,7 @@
     .head-menu {
         justify-content: center;
     }
-    
+
     .head_menu-logo {
         padding: 2.8em 0 2.5em 5em;
         width: 10em;
@@ -183,11 +182,11 @@
 
     .head_menu-titulo {
         padding: 3.5em 2.5em 0;
-      }
+    }
 
-      .head-logIn_usuario {
+    .head-logIn_usuario {
         padding: 2.2em 7em 0;
-      }
+    }
 
     .head-logIn_usuario-link {
         border-bottom: none;

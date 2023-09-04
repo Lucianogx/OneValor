@@ -1,4 +1,4 @@
-.learn-container{
+.learn-container {
     background-color: var(--blue-light);
     background-image: url(../img/Retângulo_87.png);
     background-repeat: no-repeat;
@@ -6,7 +6,7 @@
     background-size: cover;
     position: relative;
     z-index: 12;
-} 
+}
 
 .learn-container_topics {
     padding-top: 5em;
@@ -47,7 +47,7 @@
     flex-wrap: wrap;
     gap: 1rem;
     margin-left: 1rem;
-    
+
 }
 
 .learn-investments_txt {
@@ -78,7 +78,7 @@
 
 .learn-investments_content-txt {
     padding-left: 1em;
-    
+
 }
 
 .learn_txt {
@@ -121,7 +121,7 @@
 
     .background-img {
         height: 0;
-      }
+    }
 
     #box-top {
         margin-left: 0;
@@ -139,15 +139,15 @@
 
 @media screen and (min-width: 1530px) {
     .learn-container {
-    padding: 0 20em 6em 4em;
-    background-position: right;
-    background-size: 90% 100%;
-    /* margin-top: 16em; */
-  }
+        padding: 0 20em 6em 4em;
+        background-position: right;
+        background-size: 90% 100%;
+        /* margin-top: 16em; */
+    }
 
-  .learn-container_topics {
-    padding-top: 8em;
-  }
+    .learn-container_topics {
+        padding-top: 8em;
+    }
 }
 
 
@@ -160,10 +160,14 @@
         background-size: 90% 100%;
         margin-top: 16em;
     }
-    .learn-container_topics, .learn-investments, .learn-investments_content, .learn_txt {
+
+    .learn-container_topics,
+    .learn-investments,
+    .learn-investments_content,
+    .learn_txt {
         font-size: 1.25em;
     }
-    
+
     .learn-bottom {
         font-size: 3.05em;
         padding: 1rem 0 0;
@@ -171,7 +175,7 @@
 
     .learn-container_topics {
         padding-top: 8rem;
-      }
+    }
 
     .learn-investments_content {
         display: flex;
@@ -181,5 +185,5 @@
     .learn-top {
         margin: 0;
     }
-    
+
 }

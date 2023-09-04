@@ -7,7 +7,7 @@
     padding: 1em;
     border: solid 3px var(--green);
     border-radius: 10px;
-    width: fit-content; 
+    width: fit-content;
     margin: 0 1em 1em;
     font-size: 1em;
     font-weight: 500;
@@ -20,7 +20,7 @@
     font-weight: 900;
     line-height: 3rem;
     padding: 0 0.5em 0 0.5em;
-    color: var(--purple   );
+    color: var(--purple);
 }
 
 .legacy-card_fettle {
@@ -31,12 +31,12 @@
     color: var(--green);
 }
 
-.bLine_after::after{
+.bLine_after::after {
     content: "\a";
     white-space: pre;
 }
 
-.bLine_before::before{
+.bLine_before::before {
     content: "\a";
     white-space: pre;
 }
@@ -120,11 +120,12 @@
     .legacy-container {
         padding: 7em 8em;
     }
-    
+
     .legacy-txt {
         padding: 2em 0 0 1em;
         width: 59%;
     }
+
     .legacy-txt_balloon {
         margin: 0;
     }
@@ -167,7 +168,7 @@
     }
 
     .legacy-box_tittle-second {
-        padding:0 0 0.5em 1.5em;
+        padding: 0 0 0.5em 1.5em;
         font-size: 3em;
     }
 
@@ -176,7 +177,7 @@
         font-weight: lighter;
     }
 
-    
+
 
     .legacy-card_container {
         display: flex;
@@ -189,7 +190,7 @@
     }
 
     .legacy-card_fettle {
-       font-size: 1.5em; 
+        font-size: 1.5em;
     }
 
     .balloon-txt {
@@ -207,16 +208,16 @@
     .legacy-card {
         height: 30rem;
     }
-    
-    .legacy-container { 
+
+    .legacy-container {
         padding: 7em 7em;
         font-size: 1.25em;
     }
-    
+
     .legacy-txt {
         padding: 2em 0 0 0;
         width: 70%;
-        margin-left: 0; 
+        margin-left: 0;
     }
 
     .legacy-txt_emphasis {
@@ -226,11 +227,11 @@
     .legacy-box_txt {
         font-size: 1.25rem;
         margin-top: 3rem;
-      }
+    }
 
     .legacy-card_fettle {
-        font-size: 1.5em; 
-     }
+        font-size: 1.5em;
+    }
 }
 
 @media screen and (min-width: 1900px) {
@@ -238,14 +239,15 @@
     .legacy-card {
         height: 26rem;
     }
-    .legacy-container { 
-    padding: 7rem 12em;
-    font-size: 1.5em;
+
+    .legacy-container {
+        padding: 7rem 12em;
+        font-size: 1.5em;
     }
 
     .legacy-txt {
-    padding: 2em 0 0 0;
-    width: 59%;
+        padding: 2em 0 0 0;
+        width: 59%;
     }
 
     .legacy-txt_emphasis {
@@ -254,15 +256,15 @@
     }
 
     #legacy-txt_emphasis {
-        padding: 1rem 0 0 0; 
+        padding: 1rem 0 0 0;
     }
 
-  
+
     .legacy-card_fettle {
-        font-size: 1.5rem; 
+        font-size: 1.5rem;
         padding: 0;
-     }
-    
+    }
+
     .legacy-box_tittle-second {
         padding: 1rem 0 0 5.5rem;
     }
