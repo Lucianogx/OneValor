@@ -1,64 +1,53 @@
-const carousel = document.querySelector(".cards-wrapper");
-const arrowBtns_sell = document.querySelectorAll(".slide-content i");
-const firstCardWidth_sell = carousel.querySelector(".plans-cards").offsetWidth;
-const carouselChildrens = [...carousel.children];
+const carousel_s = document.querySelector(".cards-wrapper");
+const arrowBtns_s = document.querySelectorAll(".slide-content i");
+const firstCardWidth_s = carousel_s.querySelector(".plans-cards").offsetWidth;
+const carouselChildrens_s = [...carousel_s.children];
 
-let isDragging = false, startX, starScrollLeft;
+let isDragging_s = false, startX_s, starScrollLeft_s;
 
 // Captura o número de cards que podem caber no Carrossel ao mesmo tempo
-let cardPerView = Math.round(carousel.offsetWidth / firstCardWidth_sell);
-
-
-// Insere cópias dos últimos cards atrás do Carrossel para o escroll infinito
-carouselChildrens.slice(-cardPerView).reverse().forEach(card => {
-    carousel.insertAdjacentHTML("afterbegin", card.outerHTML);
-});
-
-// Insere cópias dos primeiros cards no final do Carrossel para o efeito infinito
-carouselChildrens.slice(0, cardPerView).forEach(card => {
-    carousel.insertAdjacentHTML("beforeend", card.outerHTML);
-});
+let cardPerView_s = Math.round(carousel_s.offsetWidth / firstCardWidth_s);
 
 // Adiciona listeners para o arrow buttons do rolamento do carrosel esquerdo e direito
-arrowBtns_sell.forEach(btn_sell => {
-    btn_sell.addEventListener("click", () => {
-        console.log(btn_sell.id);
+arrowBtns_s.forEach(btn => {
+    btn.addEventListener("click", () => {
+        carousel_s.scrollLeft += btn.id === "left" ? -firstCardWidth_s : firstCardWidth_s;
     })
 });
 
-const dragStart = (e) => {
+const dragStart_s = (e) => {
     isDragging = true;
-    carousel.classList.add("dragging_sell");
+    carousel_s.classList.add("dragging_s");
     // Memoriza a posição inicial do cursor e a posição do scroll do carrosel
     startX = e.pageX;
-    starScrollLeft = carousel.scrollLeft;
+    starScrollLeft_s = carousel_s.scrollLeft;
 }
 
-const dragging = (e) => {
+const dragging_s = (e) => {
     if(!isDragging) return; // Se isDragging é "false", retorna daqui
     // Atualiza a posição do scroll baseado no movimento do cursor
-    carousel.scrollLeft = starScrollLeft - (e.pageX - startX);
+    carousel_s.scrollLeft = starScrollLeft_s - (e.pageX - startX);
 }
 
-const dragStop = () => {
+const dragStop_s = () => {
     isDragging = false;
-    carousel.classList.remove("dragging_sell");
+    carousel_s.classList.remove("dragging_s");
 }
 
-const InfinityScroll = () => {
-    if (carousel.scrollLeft === 0) {
-        carousel.classList.add("no-transition");
-        carousel.scrollLeft = carousel.scrollWidth - (2* carousel.offsetWidth);
-        carousel.classList.remove("no-transition");
-    } else if(Math.ceil(carousel.scrollLeft) === carousel.scrollWidth - carousel.offsetWidth){
-        carousel.classList.add("no-transition");
-        carousel.scrollLeft = carousel.offsetWidth;
-        carousel.classList.remove("no-transition");
+const InfinityScroll_s = () => {
+    if (carousel_s.scrollLeft === 0) {
+        carousel_s.classList.add("no-transition");
+        carousel_s.scrollLeft = carousel_s.scrollWidth - (2* carousel_s.offsetWidth);
+        carousel_s.classList.remove("no-transition");
+    } else if(Math.ceil(carousel_s.scrollLeft) === carousel_s.scrollWidth - carousel_s.offsetWidth){
+        carousel_s.classList.add("no-transition");
+        carousel_s.scrollLeft = carousel_s.offsetWidth;
+        carousel_s.classList.remove("no-transition");
         
     }
 }
 
-carousel.addEventListener("mousedown", dragStart);
-carousel.addEventListener("mousemove", dragging);
-carousel.addEventListener("scroll", InfinityScroll);
+carousel_s.addEventListener("mousedown", dragStart);
+carousel_s.addEventListener("mousemove", dragging);
+carousel_s.addEventListener("scroll", InfinityScroll);
 document.addEventListener("mouseup", dragStop);
