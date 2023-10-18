@@ -29,9 +29,11 @@
 
 .platform-tablet_img {
     position: absolute;
-    right: 0%;
+    z-index: 10;
+    right: -18rem;
+    
     width: 95%;
-    margin-top: 2em;
+
 }
 
 .platform-discovery_call-meet {
@@ -46,6 +48,7 @@
 }
 
 .platform-discovery_discovery-link {
+    font-weight: bold;
     text-decoration: none;
     color: var(--green);
 }
@@ -55,7 +58,7 @@
     left: 2rem;
     background-color: var(--purple);
     padding: 1em 4em;
-    border-radius: 5px;
+    border-radius: 16px;
     font-size: 1em;
     line-height: 1.5em;
     text-align: center;
@@ -109,7 +112,8 @@
     }
 
     .platform-tablet_img {
-        width: 60%;
+        width: 91.5625rem;
+        height: 63.9375rem;
         top: 16%;
     }
 
@@ -200,14 +204,20 @@
     }
 
     .platform-discovery_call {
-        margin: 10rem 60rem 0.5em 13rem;
+        margin: 10rem 67rem 0.5em 13rem;
         padding: 0;
         font-size: 55px;
+        font-weight: 300;
+    }
+
+    .platform-discovery_text {
+        font-weight: bold;
     }
 
     .platform-discovery_experience {
         margin-left: 13rem;
-        font-size: 1.94em;
+        font-size: 1.5625rem;
+        font-weight: normal;
     }
 
     .platform-discovery_call-meet {
@@ -219,7 +229,7 @@
     .platform-discovery_discovery {
         margin: 2em 0 7em 13rem;
         font-size: 1.25em;
-        width: 23%;
+        width: 27.5rem;
     }
 
     .apresentation-text_item-container {

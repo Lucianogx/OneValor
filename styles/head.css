@@ -103,15 +103,16 @@
 
     .head_menu-list {
         display: flex;
-        margin-left: 1rem;
+        font-size: 1.25rem;
     }
 
     .head_menu-titulo {
-        padding: 3.5em 0.75em 0;
+        margin: 3.5em 1.7rem 0;
     }
 
     .head_menu-titulo:hover {
         border-bottom: 5px solid var(--purple);
+        font-weight: 800;
     }
 
     .head_menu-logo {
@@ -131,10 +132,6 @@
         color: var(--purple);
     }
 
-    .head_menu-link:hover {
-        font-weight: bold;
-    }
-
     .head-logIn_usuario {
         display: flex;
         padding: 2.2em 3em 0;
@@ -143,7 +140,7 @@
     .head-logIn_usuario-cadastro {
         padding: 1.4em 1.5em;
         background-color: var(--purple);
-        border-radius: 5px;
+        border-radius: 16px;
     }
 
     .head-logIn_usuario-link {
@@ -154,7 +151,7 @@
     .head-logIn_access {
         padding: 1.2em 1.4em;
         border: solid 2px var(--white);
-        border-radius: 5px;
+        border-radius: 16px;
         font-weight: bold;
         margin-left: 1em;
     }
@@ -162,7 +159,7 @@
 
 @media screen and (min-width: 1530px) {
     .head_menu-titulo {
-        padding: 4em 1em 0;
+        margin: 3.5em 1.6rem 0;
     }
 
     .head-logIn_usuario-link {
@@ -176,12 +173,12 @@
     }
 
     .head_menu-logo {
-        padding: 2.8em 0 2.5em 5em;
+        padding: 2.8em 0 2.5em 8em;
         width: 10em;
     }
 
     .head_menu-titulo {
-        padding: 3.5em 2.5em 0;
+        margin: 3.5em 3.2rem 0 0;
     }
 
     .head-logIn_usuario {
@@ -190,10 +187,6 @@
 
     .head-logIn_usuario-link {
         border-bottom: none;
-    }
-
-    .head_menu-list {
-        margin-left: 1rem;
     }
 
 }
