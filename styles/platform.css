@@ -3,7 +3,7 @@
 }
 
 .platform-discovery {
-    padding: 3em 0 4rem 0.6em;
+    padding: 3em 0 0rem 0.6em;
     line-height: normal;
 }
 
@@ -38,11 +38,12 @@
 .platform-discovery_call-meet {
     color: var(--purple);
     font-size: 1em;
-    padding: 1em;
     font-weight: 400;
     line-height: 1.5em;
     text-align: center;
-    padding-top: 115%;
+    padding: 30rem 0 0 0;
+    position: relative;
+    left: 2rem;
 }
 
 .platform-discovery_discovery-link {
@@ -52,7 +53,7 @@
 
 .platform-discovery_discovery {
     position: relative;
-    left: 0.5em;
+    left: 2rem;
     background-color: var(--purple);
     padding: 1em 4em;
     border-radius: 5px;
@@ -190,7 +191,6 @@
     }
 
     .platform-discovery {
-        margin: 9.25em 0 0 10em;
         padding: 0;
     }
 
