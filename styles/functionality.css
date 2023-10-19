@@ -210,60 +210,114 @@
 
 @media screen and (min-width: 1900px) {
     .functionality {
-        display: flex;
-        flex-wrap: wrap;
+        display: grid;
+        grid-auto-rows: 1fr;
+        grid-template-columns: 0.35fr 0.7fr;
+        grid-template-rows: 0.6fr 1.4fr 1fr;
+        gap: 0px 0px;
+        grid-template-areas:
+            ". functionality-step"
+            "functionality-gain functionality-gain"
+            ". .";
     }
 
     .functionality-step {
-        margin: 2em 0 0 44em;
+        /* margin: 2em 0 0 44em; */
+        grid-area: functionality-step;
     }
+}
 
-    .functionality-gain {
-        align-items: center;
+.functionality-gain {
+    /* align-items: center;
         height: 39vh;
         margin: auto;
-        width: 90%;
-    }
+        width: 90%; */
+    display: grid;
+    grid-template-columns: 0.15fr 1.8fr 0.15fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        ". functionality-gain_cards ."
+        ". functionality-gain_cards ."
+        ". functionality-gain_cards .";
+    grid-area: functionality-gain;
+}
 
-    #integration_position {
-        margin-left: 45rem;
-    }
+.functionality-gain_cards {
+    display: grid;
+    grid-template-columns: 0.45fr 1.5fr;
+    grid-template-rows: 0.3fr 2.4fr 0.3fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        ". ."
+        ". functionality-gain_integration"
+        ". .";
+    grid-area: functionality-gain_cards;
+}
 
-    .functionality-step_top,
-    .functionality-step_bottom {
-        font-size: 1.25em;
-    }
+.functionality-gain_integration {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        "functionality-gain_integration_card-1 functionality-gain_integration_card-2 functionality-gain_integration_card-3"
+        "functionality-gain_integration_card-1 functionality-gain_integration_card-2 functionality-gain_integration_card-3"
+        "functionality-gain_integration_card-1 functionality-gain_integration_card-2 functionality-gain_integration_card-3";
+    grid-area: functionality-gain_integration;
+}
+
+.functionality-gain_integration_card-2 {
+    grid-area: functionality-gain_integration_card-2;
+}
+
+.functionality-gain_integration_card-3 {
+    grid-area: functionality-gain_integration_card-3;
+}
+
+.functionality-gain_integration_card-1 {
+    grid-area: functionality-gain_integration_card-1;
+}
+
+#integration_position {
+    margin-left: 45rem;
+}
+
+.functionality-step_top,
+.functionality-step_bottom {
+    font-size: 1.25em;
+}
 
 
 
-    .functionality-step_middle {
-        font-size: 3.05em;
-    }
+.functionality-step_middle {
+    font-size: 3.05em;
+}
 
-    .functionality-gain_integration {
-        margin: 0 2rem 0;
-        width: 14vw;
-        height: 26vh;
-    }
+.functionality-gain_integration {
+    margin: 0 2rem 0;
+    width: 14vw;
+    height: 26vh;
+}
 
-    .functionality-gain_txt {
-        font-size: 1.25em;
-        padding-bottom: 2.37rem;
-    }
+.functionality-gain_txt {
+    font-size: 1.25em;
+    padding-bottom: 2.37rem;
+}
 
-    #functionality-gain_FirstImg {
-        top: 0%;
-        width: 25vw;
-        left: 7%;
-    }
+#functionality-gain_FirstImg {
+    top: 0%;
+    width: 25vw;
+    left: 7%;
+}
 
-    #integration_position-two {
-        margin-right: 5em;
-    }
+#integration_position-two {
+    margin-right: 5em;
+}
 
-    .functionality-gain_img {
-        width: 4rem;
-        margin: 0;
-        padding: 2.68rem 5.87rem 1.75rem;
-    }
+.functionality-gain_img {
+    width: 4rem;
+    margin: 0;
+    padding: 2.68rem 5.87rem 1.75rem;
+}
 }
