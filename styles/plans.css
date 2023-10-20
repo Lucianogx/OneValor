@@ -3,7 +3,6 @@
     color: var(--white);
     height: fit-content;
     padding-top: 12.5rem;
-    background-image: url(../img/img_planos__.png);
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100% 10rem;
@@ -75,7 +74,7 @@
 }
 
 .plans-cards_topic {
-    padding: 2rem 0 0 0;
+    padding: 1rem 0 0 0;
 }
 
 #plans-cards-weight {
@@ -102,7 +101,7 @@
 
 .plans-cards_link {
     text-decoration: none;
-    color: var(--white);
+    color: var(--purple);
     font-size: 1.5em;
     letter-spacing: 0.1em;
     font-weight: bold;
@@ -112,7 +111,7 @@
 .plans-cards button {
     margin: 1.5em 0 1.7em;
     padding: 1.8em 5.2em;
-    background-color: var(--blue-light);
+    background-color: var(--green);
     border: none;
     border-radius: 10px;
 }
@@ -192,7 +191,6 @@
         padding: 1.4rem;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
         align-items: center;
         padding: 0.5rem 1.5rem;
     }
@@ -245,11 +243,28 @@
     }
 
     .plans-cards_topic{
-        font-size: 0.9rem;
+        font-size: 1rem;
+    }
+
+    .card-topic {
+        background-color: var(--green);
+        position: absolute;
+        width: -webkit-fill-available;
+        padding: 0.5rem 2.5rem;
+        left: 0rem;
+        top: 14.43rem;
     }
 
     .plans-cards_topic-tool {
         padding: 2rem 0 0 0;
+    }
+
+    .topic-tool {
+        padding: 7.26rem 0 0 0;
+    }
+
+    .topic-tool-2 {
+        padding: 6.31rem 0 0 0;
     }
 
     .plans-cards_item {
@@ -264,12 +279,12 @@
     .plans-cards button {
         width: 11.59rem;
         padding: 1.5em 0;
-        margin: 1.5em 0 0;
+        margin: 2.5rem;
     }
 
     .plans-register_container {
         display: flex;
-        margin: 2em auto;
+        margin: 16.62rem auto 0;
         width: 80%;
         height: fit-content;
         background-image: url(../img/Retângulo126.png);
@@ -286,7 +301,7 @@
     .plans-cards_assurance {
         display: block;
         padding: 1em;
-        margin-bottom: 1em;
+        margin:2rem 0 1em 0;
         background-color: var(--white);
         border-radius: 15em;
         width: fit-content;
@@ -298,10 +313,6 @@
 
 
     /* wrapper 1024px */
-
-    .slide-container {
-        overflow: hidden;
-    }
 
     .slide-content i {
         height: 50px;
@@ -331,14 +342,7 @@
     .slide-content .caroucel_sell {
         display: grid;
         grid-auto-flow: column;
-        grid-auto-columns: calc((100% / 3) - 12px);
-        gap: 16px;
-        overflow-x: auto;
-        justify-content: start;
-        padding-left: 2rem;
-        scroll-behavior: smooth;
-        scroll-snap-type: x mandatory;
-        scrollbar-width: none;
+        gap: 3.4rem;
     }
 
     .caroucel_sell .plans-cards {
@@ -413,8 +417,9 @@
     }
 
     .plans-register_container {
-        width: 80%;
-        height: fit-content;
+        padding: 6rem 0 0 10.5rem;
+        width: 83.8vw;
+        height: 61vh;
         background-image: url(../img/Retângulo126.png);
         background-position: right top;
         background-repeat: no-repeat;
@@ -443,13 +448,27 @@
 
 @media screen and (min-device-width: 1800px) and (max-device-width: 1920px) {
     .plans-container {
-        height: 90rem;
+        height: 112rem;
         background-size: 20% 100%;
     }
 
     .plans-cards {
         width: 10.6vw;
         padding: 2.5rem;
+    }
+
+    .cards-2 {
+        height: 107vh;
+    }
+
+    .cards-3{
+        height: 99vh;
+        position: relative;
+    }
+
+    .cards-4 {
+        height: 85vh;
+        position: relative;
     }
 
     .top-triangle {
@@ -502,7 +521,6 @@
 
     /* Wrapper 1920px */
     .slide-content .caroucel_sell {
-        grid-auto-columns: calc((100% / 4) - 12px);
         padding-left: 12.8rem;
     }
 }

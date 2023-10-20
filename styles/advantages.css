@@ -334,10 +334,12 @@
 
   .wrapper-container {
     padding: 10rem 0;
+    position: relative;
   }
 
   .wrapper {
     width: 100%;
+    position: relative;
   }
 
   .wrapper i {
@@ -649,7 +651,7 @@
 
   .wrapper i:last-child {
     right: 10rem;
-    bottom: 93.4rem;
+    bottom: 34.5rem;
   }
 
   .wrapper .caroucel {
