@@ -143,6 +143,14 @@
         border-radius: 16px;
     }
 
+    .head-logIn_usuario-cadastro:hover{
+        background-color: var(--white);
+
+        .head-logIn_usuario-link {
+            color: var(--purple);
+        }
+    }
+
     .head-logIn_usuario-link {
         color: var(--green);
         border-bottom: none;
@@ -154,6 +162,10 @@
         border-radius: 16px;
         font-weight: bold;
         margin-left: 1em;
+    }
+
+    .head-logIn_access:hover {
+        background-color: var(--white);
     }
 }
 

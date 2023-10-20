@@ -65,6 +65,14 @@
     margin: 1em -0.5em 0;
 }
 
+.platform-discovery_discovery:hover {
+    background-color: var(--green);
+
+    .platform-discovery_discovery-link {
+        color: var(--purple);
+    }
+}
+
 .apresentation {
     background-color: var(--purple);
     padding: 1em;

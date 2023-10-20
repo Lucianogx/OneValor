@@ -145,6 +145,11 @@
     text-align: center;
 }
 
+.plans-cards_box:hover {
+    background-color: var(--white);
+    color: var(--purple);
+}
+
 .plans-cards_top {
     font-size: 2em;
     font-weight: 900;
@@ -242,7 +247,7 @@
         text-align: left;
     }
 
-    .plans-cards_topic{
+    .plans-cards_topic {
         font-size: 1rem;
     }
 
@@ -282,6 +287,11 @@
         margin: 2.5rem;
     }
 
+    .plans-cards button:hover {
+        background-color: var(--white);
+        color: var(--purple);
+    }
+
     .plans-register_container {
         display: flex;
         margin: 16.62rem auto 0;
@@ -301,7 +311,7 @@
     .plans-cards_assurance {
         display: block;
         padding: 1em;
-        margin:2rem 0 1em 0;
+        margin: 2rem 0 1em 0;
         background-color: var(--white);
         border-radius: 15em;
         width: fit-content;
@@ -461,7 +471,7 @@
         height: 107vh;
     }
 
-    .cards-3{
+    .cards-3 {
         height: 99vh;
         position: relative;
     }
