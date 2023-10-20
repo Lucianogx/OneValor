@@ -87,10 +87,6 @@
   opacity: 1;
 }
 
-.broad-card {
-  padding: 1rem;
-}
-
 .card-news_spam {
   display: none;
 }
@@ -288,10 +284,6 @@
     padding: 1rem 0.5em 0.5em 16px;
   }
 
-  /* .cads-content {
-        display: flex;
-    } */
-
   .card-news {
     padding: 2em 30em 2em 5em;
     height: auto;
@@ -332,16 +324,16 @@
 
   }
 
-    .card-goes_link,
-    .card-plans_link,
-    .card-progress_link,
-    .card-objetives_link {
-      padding: 1.5rem 2rem;
-    }
+  .card-goes_link,
+  .card-plans_link,
+  .card-progress_link,
+  .card-objetives_link {
+    display: none;
+    padding: 1.5rem 2rem;
+  }
 
   .wrapper {
     width: 100%;
-    /* max-width: 1000px; */
   }
 
   .wrapper i {
@@ -383,7 +375,7 @@
 
   .caroucel .broad-card {
     display: flex;
-    justify-content: center;
+    justify-content: normal;
     flex-direction: column;
     scroll-snap-align: initial;
     scroll-behavior: auto;
@@ -490,7 +482,7 @@
   }
 }
 
-@media screen and (min-width: 1900px) {
+@media screen and (min-device-width: 1800px) and (max-device-width: 1920px) {
   .advantages {
     padding-top: 9em;
   }
@@ -549,19 +541,19 @@
 
   .card_link {
     width: 15vw;
-    margin: 0 auto 3rem;
+    margin: 0 2.5rem 6rem;
   }
 
 
   .broad-card_img {
-    margin: 4.5rem 3.5rem 1rem;
+    margin: 4rem 16rem 2rem 2.5rem;
   }
 
   .card-goes_top,
   .card-plans_top,
   .card-progress_top,
   .card-objetives_top {
-    margin: 0 2.5em 0;
+    margin: 0 0 0 2.5rem;
     padding-left: 0;
     font-size: 1.56rem;
   }
@@ -570,7 +562,7 @@
   .card-plans_middle,
   .card-progress_middle,
   .card-objetives_middle {
-    margin: 0 2.5em 1.5em;
+    margin: 0 0 1.5rem 2.5rem;
     padding-left: 0;
     font-size: 1.56rem;
   }
@@ -579,7 +571,7 @@
   .card-plans_bottom,
   .card-progress_bottom,
   .card-objetives_bottom {
-    margin: 0 3.5em 2.5em;
+    margin: 0 2.5rem 2.5rem;
     padding: 0;
     font-size: 1.25rem;
   }
@@ -626,8 +618,9 @@
   }
 
   .broad-card {
-    height: auto;
-    width: 80%;
+    height: 70.2vh;
+    width: 20.3vw;
+    transition: transform 0.3s;
   }
 
   .wrapper i {
@@ -648,7 +641,7 @@
   .wrapper i:first-child {
     left: 7rem;
   }
-  
+
 
   .wrapper i:last-child {
     right: 10rem;
@@ -666,8 +659,25 @@
 
   .caroucel .broad-card {
     display: flex;
-    justify-content: center;
+    justify-content: normal;
     flex-direction: column;
+  }
+
+  .broad-card:hover {
+    background-color: var(--green);
+    height: 74.5vh;
+    transform: scale(1.1);
+
+    .card-objetives_middle {
+      color: var(--white);
+    }
+
+    .card-goes_link,
+    .card-plans_link,
+    .card-progress_link,
+    .card-objetives_link {
+      display: block;
+    }
   }
 
 }

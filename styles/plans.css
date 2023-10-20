@@ -113,12 +113,10 @@
 .plans-register_container {
     position: relative;
     top: 2%;
-    border: 1px solid;
     background: var(--green);
     color: var(--purple);
     border-radius: 15px;
     font-weight: normal;
-    color: var(--purple);
     text-align: left;
     opacity: 1;
     height: 50vh;
@@ -164,7 +162,7 @@
         display: flex;
         flex-wrap: wrap;
         height: 92rem;
-        background-image: url(../img/img_planos__.png);
+        background-image: url(../img/Retângulo_75.png);
         background-repeat: no-repeat;
         background-position: right top;
         background-size: 30% 100%;
@@ -224,7 +222,7 @@
         margin: 2em auto;
         width: 80%;
         height: fit-content;
-        background-image: url(../img/Retângulo_126.png);
+        background-image: url(../img/Retângulo126.png);
         background-position: right top;
         background-repeat: no-repeat;
         background-size: cover;
@@ -370,7 +368,7 @@
     .plans-register_container {
         width: 80%;
         height: fit-content;
-        background-image: url(../img/Retângulo_126.png);
+        background-image: url(../img/Retângulo126.png);
         background-position: right top;
         background-repeat: no-repeat;
         background-size: cover;
@@ -396,7 +394,8 @@
     }
 }
 
-@media screen and (min-width: 1900px) {
+@media screen and (min-device-width: 1800px) 
+and (max-device-width: 1920px) {
     .plans-container {
         height: 90rem;
         background-size: 20% 100%;
