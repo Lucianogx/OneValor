@@ -332,6 +332,10 @@
     padding: 1.5rem 2rem;
   }
 
+  .wrapper-container {
+    padding: 10rem 0;
+  }
+
   .wrapper {
     width: 100%;
   }
@@ -663,8 +667,13 @@
     flex-direction: column;
   }
 
+  .wrapper:last-child {
+    height: 74.5vh;
+  }
+
   .broad-card:hover {
     background-color: var(--green);
+    /* height: 70.2vh; */
     height: 74.5vh;
     transform: scale(1.1);
 
@@ -678,6 +687,9 @@
     .card-objetives_link {
       display: block;
     }
+
   }
+
+
 
 }

@@ -14,7 +14,6 @@
     border: solid 3px var(--green);
     border-radius: 10px;
     width: fit-content;
-    margin: 0 1em 1em;
     font-size: 1em;
     font-weight: 500;
     text-align: center;
@@ -24,7 +23,7 @@
     font-size: 2.5rem;
     font-weight: 900;
     line-height: 4.57rem;
-    padding: 0.5em 0.5em 0.75em;
+    padding: 0.5em 0 0.75em;
 }
 
 #txt_green {
@@ -33,7 +32,6 @@
 
 .plans-cards {
     padding: 0.6rem;
-    margin: 1em;
     border: 2px solid var(--blue-light);
     text-align: center;
     background: var(--purple);
@@ -46,7 +44,7 @@
 .plans-cards_one {
     font-size: 1.56em;
     line-height: 2.34rem;
-    margin: 1.5em auto;
+    color: var(--green);
 }
 
 .plans-cards_two {
@@ -62,10 +60,11 @@
 }
 
 .plans-cards_three {
-    font-weight: 300;
+    font-weight: 400;
     font-style: italic;
     line-height: 1.5rem;
     padding: 2.5rem 3em 1.5em;
+    color: var(--green);
 }
 
 .plans-cards_topic,
@@ -76,17 +75,29 @@
 }
 
 .plans-cards_topic {
-    padding: 0.5rem 0rem;
+    padding: 2rem 0 0 0;
+}
+
+#plans-cards-weight {
+    font-weight: lighter;
 }
 
 .plans-cards_item {
-    padding: 0 2.4em;
+    padding: 0 0 0 1.5rem;
     line-height: 2em;
     margin-top: 1em;
-    opacity: 0.5;
     font-weight: lighter;
     text-align: left;
-    list-style-type: disc;
+    text-decoration: none;
+    border-left: 4px solid var(--green);
+}
+
+#txt-height {
+    line-height: 1.25rem;
+}
+
+.plans-cards_item li {
+    opacity: 0.8;
 }
 
 .plans-cards_link {
@@ -186,8 +197,41 @@
         padding: 0.5rem 1.5rem;
     }
 
+    .plans-cards_top {
+        display: flex;
+        position: relative;
+    }
+
+    .plans-cards_one-plans {
+        font-size: 1.95rem;
+        font-weight: normal;
+        text-align: left;
+    }
+
+    .top-triangle {
+        background-color: var(--green);
+        position: absolute;
+        top: -2.5rem;
+        right: -0.25rem;
+        height: 7.81rem;
+        width: 7.81rem;
+        -webkit-clip-path: polygon(50% 0, 100% 50%, 100% 100%, 0 0);
+        clip-path: polygon(50% 0, 100% 50%, 100% 100%, 0 0);
+    }
+
+    .top-triangle_txt {
+        font-size: 1.25rem;
+        color: var(--purple);
+        position: relative;
+        top: 1.8rem;
+        left: 1rem;
+        transform: rotate(45deg);
+    }
+
     .plans-cards_one {
-        font-size: 1em;
+        font-size: 1rem;
+        color: var(--green);
+        text-align: left;
     }
 
     .plans-cards_two {
@@ -195,15 +239,21 @@
     }
 
     .plans-cards_three {
-        padding: 1em 1em 1.5em;
+        padding: 0;
+        margin-top: 2rem;
+        text-align: left;
+    }
+
+    .plans-cards_topic{
+        font-size: 0.9rem;
     }
 
     .plans-cards_topic-tool {
-        padding: 0;
+        padding: 2rem 0 0 0;
     }
 
     .plans-cards_item {
-        padding: 0;
+        padding: 0 0 0 1.5rem;
     }
 
     .cards-highlight {
@@ -354,11 +404,8 @@
 
     .plans-cards_one,
     .plans-cards_two {
-        font-size: 1.56em;
-    }
-
-    .plans-cards_item {
-        padding: 0 1rem 0;
+        font-size: 1rem;
+        text-align: left;
     }
 
     .cards-wrapper {
@@ -394,21 +441,25 @@
     }
 }
 
-@media screen and (min-device-width: 1800px) 
-and (max-device-width: 1920px) {
+@media screen and (min-device-width: 1800px) and (max-device-width: 1920px) {
     .plans-container {
         height: 90rem;
         background-size: 20% 100%;
     }
 
     .plans-cards {
-        width: 14vw;
+        width: 10.6vw;
+        padding: 2.5rem;
+    }
+
+    .top-triangle {
+        right: -2.5rem;
     }
 
     .plans-txt_container {
         font-size: 1.5em;
         background-size: 34% 100%;
-        margin: 0 20em 0 13em;
+        margin: 0 0 0 12.8rem;
     }
 
     .plans-cards_assurance {
@@ -423,13 +474,8 @@ and (max-device-width: 1920px) {
         font-size: 1.25rem;
     }
 
-    .plans-cards_one,
-    .plans-cards_two {
-        font-size: 1.56em;
-    }
-
-    .plans-cards_item {
-        padding: 0 1rem 0;
+    .plans-cards_one {
+        font-size: 1rem;
     }
 
     .cards-wrapper {
@@ -441,7 +487,7 @@ and (max-device-width: 1920px) {
     }
 
     .plans-cards_top {
-        margin-bottom: 1.75rem;
+        margin: 0 0 0 0;
         font-size: 3.05rem;
     }
 
@@ -457,6 +503,6 @@ and (max-device-width: 1920px) {
     /* Wrapper 1920px */
     .slide-content .caroucel_sell {
         grid-auto-columns: calc((100% / 4) - 12px);
-        padding-left: 9rem;
+        padding-left: 12.8rem;
     }
 }
