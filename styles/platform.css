@@ -3,13 +3,12 @@
 }
 
 .platform-discovery {
-    padding: 3em 0 0rem 0.6em;
+    padding: 3em 0 0 1em;
     line-height: normal;
 }
 
 .platform-discovery_call {
     font-size: 1.5em;
-    padding-right: 0.6em;
     color: var(--purple);
     font-weight: 400;
     line-height: 1.5em;
@@ -22,6 +21,7 @@
 }
 
 .platform-discovery_experience {
+    margin-top: 1rem;
     font-weight: 400;
     color: var(--blue-light);
     line-height: 1.5em;
@@ -30,10 +30,8 @@
 .platform-tablet_img {
     position: absolute;
     z-index: 10;
-    right: -18rem;
-    
-    width: 95%;
-
+    right: 0;
+    width: 95%
 }
 
 .platform-discovery_call-meet {
@@ -55,14 +53,22 @@
 
 .platform-discovery_discovery {
     position: relative;
-    left: 2rem;
+    left: 1rem;
     background-color: var(--purple);
-    padding: 1em 4em;
+    padding: 1em 3em;
     border-radius: 16px;
     font-size: 1em;
     line-height: 1.5em;
     text-align: center;
-    margin: 1em -0.5em 0;
+    margin: 17rem 0 3rem;
+}
+
+.platform-discovery_discovery:hover {
+    background-color: var(--green);
+
+    .platform-discovery_discovery-link {
+        color: var(--purple);
+    }
 }
 
 .apresentation {
@@ -101,6 +107,39 @@
     color: var(--white);
 }
 
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+
+    .platform-tablet {
+        height: 100vh;
+        max-height: 120%;
+    }
+
+    .platform-discovery_discovery {
+        margin: 95% 0 0 2rem;
+        left: 10%;
+    }
+
+    .platform-tablet_img {
+        top: 39%;
+        width: 72%;
+    }
+
+    .platform-discovery {
+        padding: 5% 0 0 3%;
+    }
+
+    .advantages-container {
+        display: flex;
+        flex-direction: column;
+        align-content: flex-end;
+        flex-wrap: wrap;
+    }
+
+    .cads-container {
+        margin: 0rem 8% 0rem;
+    }
+}
+
 @media screen and (min-width: 1024px) {
     .platform-tablet {
         position: absolute;
@@ -112,9 +151,9 @@
     }
 
     .platform-tablet_img {
-        width: 91.5625rem;
-        height: 63.9375rem;
-        top: 16%;
+        width: 38.5rem;
+        top: 22%;
+        right: 0;
     }
 
     .platform-discovery {
@@ -184,10 +223,15 @@
     .platform-discovery_discovery {
         margin-bottom: 14rem;
     }
+
+    .platform-tablet_img {
+        width: 55rem;
+    }
+
+    
 }
 
-@media screen and (min-device-width: 1800px) 
-and (max-device-width: 1920px) {
+@media screen and (min-device-width: 1800px) and (max-device-width: 1920px) {
     .apresentation {
         font-size: 1.3em;
         width: 23vw;
@@ -200,8 +244,7 @@ and (max-device-width: 1920px) {
     }
 
     .platform-tablet {
-        height: 150%;
-        min-height: 145%;
+        min-height: 92rem;
     }
 
     .platform-discovery_call {
@@ -235,5 +278,9 @@ and (max-device-width: 1920px) {
 
     .apresentation-text_item-container {
         display: flex;
+    }
+    
+    .platform-tablet_img {
+        width: 60%;
     }
 }

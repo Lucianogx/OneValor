@@ -1,8 +1,7 @@
 .learn-container {
     background-color: var(--blue-light);
-    background-image: url(../img/Retângulo_87.png);
+    background-image: url(../img/Retângulo128.png);
     background-repeat: no-repeat;
-    background-position: left 4em;
     background-size: cover;
     position: relative;
     z-index: 12;
@@ -83,6 +82,20 @@
 
 .learn_txt {
     display: none;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait){
+    .learn-container {
+        background-position: bottom;
+        background-size: 100% 180%;
+    }
+
+    .learn-container_topics, 
+    .learn-investments,
+    .learn-investments_content,
+    .legacy-container {
+        margin: 0rem 8% 0rem;
+    }
 }
 
 

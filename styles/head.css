@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     position: relative;
+    border-bottom: 2px solid var(--gray);
 }
 
 .head-menu_haburguer {
@@ -53,6 +54,7 @@
     top: 100%;
     right: 0%;
     border: 2px solid var(--gray);
+    z-index: 999;
 }
 
 
@@ -77,11 +79,6 @@
     display: none;
 }
 
-@media screen and (max-width: 430px) {
-    .container {
-        border-bottom: 2px solid var(--gray);
-    }
-}
 
 @media screen and (min-width: 1024px) {
 
@@ -103,11 +100,11 @@
 
     .head_menu-list {
         display: flex;
-        font-size: 1.25rem;
+        font-size: 1rem;
     }
 
     .head_menu-titulo {
-        margin: 3.5em 1.7rem 0;
+        margin: 4em 0.5rem 0;
     }
 
     .head_menu-titulo:hover {
@@ -143,6 +140,14 @@
         border-radius: 16px;
     }
 
+    .head-logIn_usuario-cadastro:hover {
+        background-color: var(--white);
+
+        .head-logIn_usuario-link {
+            color: var(--purple);
+        }
+    }
+
     .head-logIn_usuario-link {
         color: var(--green);
         border-bottom: none;
@@ -154,6 +159,10 @@
         border-radius: 16px;
         font-weight: bold;
         margin-left: 1em;
+    }
+
+    .head-logIn_access:hover {
+        background-color: var(--white);
     }
 }
 
@@ -167,8 +176,7 @@
     }
 }
 
-@media screen and (min-device-width: 1800px) 
-and (max-device-width: 1920px) {
+@media screen and (min-device-width: 1800px) and (max-device-width: 1920px) {
     .head-menu {
         justify-content: center;
     }

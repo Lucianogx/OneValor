@@ -32,7 +32,7 @@
 }
 
 .fag-accordion_container {
-  padding: 0 2rem 2rem;
+  padding: 0 1rem 2rem;
 }
 
 .content {
@@ -83,6 +83,12 @@ span,
   font-size: 2rem;
 }
 
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .faq {
+    margin: 0rem 8% 0rem;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .faq {
     display: flex;
@@ -94,7 +100,7 @@ span,
   }
 
   .fag-txt {
-    padding-right: 13rem;
+    padding-right: 2rem;
   }
 
   .faq-top {
@@ -111,10 +117,9 @@ span,
 }
 
 
-@media screen and (min-device-width: 1800px) 
-and (max-device-width: 1920px) {
+@media screen and (min-device-width: 1800px) and (max-device-width: 1920px) {
   .faq {
-    padding: 16rem 8rem 6rem;
+    padding: 23rem 8rem 6rem;
   }
 
   .faq-top,
