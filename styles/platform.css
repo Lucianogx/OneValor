@@ -107,6 +107,39 @@
     color: var(--white);
 }
 
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+
+    .platform-tablet {
+        height: 100vh;
+        max-height: 120%;
+    }
+
+    .platform-discovery_discovery {
+        margin: 95% 0 0 2rem;
+        left: 10%;
+    }
+
+    .platform-tablet_img {
+        top: 39%;
+        width: 72%;
+    }
+
+    .platform-discovery {
+        padding: 5% 0 0 3%;
+    }
+
+    .advantages-container {
+        display: flex;
+        flex-direction: column;
+        align-content: flex-end;
+        flex-wrap: wrap;
+    }
+
+    .cads-container {
+        margin: 0rem 8% 0rem;
+    }
+}
+
 @media screen and (min-width: 1024px) {
     .platform-tablet {
         position: absolute;
@@ -193,8 +226,7 @@
     }
 }
 
-@media screen and (min-device-width: 1800px) 
-and (max-device-width: 1920px) {
+@media screen and (min-device-width: 1800px) and (max-device-width: 1920px) {
     .apresentation {
         font-size: 1.3em;
         width: 23vw;

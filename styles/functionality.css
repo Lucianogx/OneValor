@@ -79,6 +79,16 @@
     color: var(--purple);
 }
 
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .functionality-step {
+        margin: 0rem 8% 0rem;
+    }
+
+    .functionality-gain_integration {
+        margin: 1rem 8% 0rem;
+    }
+}
+
 @media screen and (min-width: 1024px) {
     .functionality {
         display: flex;
