@@ -1,8 +1,10 @@
 .plans-container {
+    position: relative;
     background-color: var(--purple);
     color: var(--white);
     height: fit-content;
-    padding-top: 12.5rem;
+    padding: 12.5rem 1rem 0;
+    background-image: url(../img/img_planos__.png);
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100% 10rem;
@@ -34,14 +36,20 @@
     border: 2px solid var(--blue-light);
     text-align: center;
     background: var(--purple);
+    margin-bottom: 1rem;
 }
 
 .plans-cards:hover {
     border: 2px solid var(--blue-light);
 }
 
+.plans-cards_one-plans, .top-triangle {
+    font-size: 1.56rem;
+
+}
+
 .plans-cards_one {
-    font-size: 1.56em;
+    font-size: 1.56rem;
     line-height: 2.34rem;
     color: var(--green);
 }
@@ -122,17 +130,16 @@
 
 .plans-register_container {
     position: relative;
-    top: 2%;
+    bottom: -8rem;
     background: var(--green);
     color: var(--purple);
     border-radius: 15px;
-    font-weight: normal;
+    font-weight: 600;
     text-align: left;
     opacity: 1;
-    height: 50vh;
+    height: 60.2vh;
     padding: 2.5rem;
-    margin: 0 1rem;
-    background-image: url(../img/Retângulo_127.png);
+    background-image: url(../img/Retângulo127.png);
     background-repeat: no-repeat;
     background-position: 0em 4em;
 }
@@ -243,7 +250,7 @@
 
     .plans-cards_three {
         padding: 0;
-        margin-top: 2rem;
+        margin-top: 1.5rem;
         text-align: left;
     }
 
@@ -282,9 +289,9 @@
     }
 
     .plans-cards button {
-        width: 11.59rem;
-        padding: 1.5em 0;
-        margin: 2.5rem;
+        width: 13rem;
+        padding: 1.5rem 0;
+        margin: 2rem 0 0;
     }
 
     .plans-cards button:hover {
@@ -463,21 +470,21 @@
     }
 
     .plans-cards {
-        width: 10.6vw;
-        padding: 2.5rem;
+        width: 11vw;
+        padding: 2.5rem 2.5rem 2.13rem 2.5rem;
     }
 
     .cards-2 {
-        height: 107vh;
+        height: 102vh;
     }
 
     .cards-3 {
-        height: 99vh;
+        height: 92vh;
         position: relative;
     }
 
     .cards-4 {
-        height: 85vh;
+        height: 74vh;
         position: relative;
     }
 

@@ -3,13 +3,12 @@
 }
 
 .platform-discovery {
-    padding: 3em 0 0rem 0.6em;
+    padding: 3em 0 0 1em;
     line-height: normal;
 }
 
 .platform-discovery_call {
     font-size: 1.5em;
-    padding-right: 0.6em;
     color: var(--purple);
     font-weight: 400;
     line-height: 1.5em;
@@ -22,6 +21,7 @@
 }
 
 .platform-discovery_experience {
+    margin-top: 1rem;
     font-weight: 400;
     color: var(--blue-light);
     line-height: 1.5em;
@@ -30,10 +30,8 @@
 .platform-tablet_img {
     position: absolute;
     z-index: 10;
-    right: -18rem;
-    
-    width: 95%;
-
+    right: 0;
+    width: 95%
 }
 
 .platform-discovery_call-meet {
@@ -55,14 +53,14 @@
 
 .platform-discovery_discovery {
     position: relative;
-    left: 2rem;
+    left: 1rem;
     background-color: var(--purple);
-    padding: 1em 4em;
+    padding: 1em 3em;
     border-radius: 16px;
     font-size: 1em;
     line-height: 1.5em;
     text-align: center;
-    margin: 1em -0.5em 0;
+    margin: 17rem 0 3rem;
 }
 
 .platform-discovery_discovery:hover {
@@ -120,9 +118,10 @@
     }
 
     .platform-tablet_img {
-        width: 91.5625rem;
+        width: 70.5rem;
         height: 63.9375rem;
-        top: 16%;
+        top: 22%;
+        right: 0;
     }
 
     .platform-discovery {
@@ -208,8 +207,7 @@ and (max-device-width: 1920px) {
     }
 
     .platform-tablet {
-        height: 150%;
-        min-height: 145%;
+        min-height: 92rem;
     }
 
     .platform-discovery_call {

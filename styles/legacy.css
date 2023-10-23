@@ -1,5 +1,5 @@
 .legacy-container {
-    background-color: var(--gray);
+    background-color: var(--white);
     padding-top: 5rem;
 }
 
@@ -13,6 +13,15 @@
     font-weight: 400;
     color: var(--purple);
     text-align: center;
+}
+
+.legacy-txt_balloon-txt {
+    font-size: 1rem;
+    line-height: 2.34rem;
+    text-align: left;
+    color: var(--purple);
+    font-weight: normal;
+    margin: 3rem 1rem 2rem;
 }
 
 .legacy-txt_emphasis {
@@ -129,11 +138,7 @@
     .legacy-txt_balloon-txt {
         width: 38.75vw;
         font-size: 1.56rem;
-        line-height: 2.34rem;
-        text-align: left;
-        color: var(--purple);
-        font-weight: normal;
-        margin-top: 3rem;
+        margin: 3rem 0 0 0;
     }
 
     .legacy-txt_emphasis {

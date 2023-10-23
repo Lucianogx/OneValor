@@ -1,5 +1,5 @@
 .advantages {
-  background-color: var(--gray);
+  background-color: var(--white);
   position: relative;
 }
 
@@ -73,11 +73,14 @@
   text-align: left;
 }
 
+#left, #right{
+  display: none;
+}
 
 .broad-card,
 .card-news {
   background-color: var(--white);
-  border: 1px solid var(--white);
+  border: 1px solid var(--green);
   margin: 4em 1em;
   border-radius: 15px;
   height: fit-content;
@@ -155,7 +158,7 @@
 .card-news {
   background-color: var(--white);
   padding: 2.5rem 2.5rem 0 2.5rem;
-  background-image: url(../img/Retângulo_124.png);
+  background-image: url(../img/Retângulo129.png);
   background-repeat: no-repeat;
 }
 
@@ -215,6 +218,12 @@
 .background-img {
   height: 350px;
 }
+
+.background-img-news {
+  height: 350px;
+}
+
+
 
 .background-container-first {
   background: var(--green);
