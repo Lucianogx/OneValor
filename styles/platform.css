@@ -151,8 +151,7 @@
     }
 
     .platform-tablet_img {
-        width: 70.5rem;
-        height: 63.9375rem;
+        width: 38.5rem;
         top: 22%;
         right: 0;
     }
@@ -224,6 +223,12 @@
     .platform-discovery_discovery {
         margin-bottom: 14rem;
     }
+
+    .platform-tablet_img {
+        width: 55rem;
+    }
+
+    
 }
 
 @media screen and (min-device-width: 1800px) and (max-device-width: 1920px) {
@@ -273,5 +278,9 @@
 
     .apresentation-text_item-container {
         display: flex;
+    }
+    
+    .platform-tablet_img {
+        width: 60%;
     }
 }

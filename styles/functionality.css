@@ -218,10 +218,9 @@
 
 
 
-@media screen and (min-device-width: 1800px) 
-and (max-device-width: 1920px) {
+@media screen and (min-device-width: 1800px) and (max-device-width: 1920px) {
 
-    
+
     .functionality {
         display: flex;
         flex-wrap: wrap;

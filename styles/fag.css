@@ -100,7 +100,7 @@ span,
   }
 
   .fag-txt {
-    padding-right: 13rem;
+    padding-right: 2rem;
   }
 
   .faq-top {
@@ -117,8 +117,7 @@ span,
 }
 
 
-@media screen and (min-device-width: 1800px) 
-and (max-device-width: 1920px) {
+@media screen and (min-device-width: 1800px) and (max-device-width: 1920px) {
   .faq {
     padding: 23rem 8rem 6rem;
   }
